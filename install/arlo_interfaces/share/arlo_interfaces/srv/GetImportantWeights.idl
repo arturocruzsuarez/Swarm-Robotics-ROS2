@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arlo_interfaces/srv/GetImportantWeights.srv
+// generated code does not contain a copyright notice
+
+
+module arlo_interfaces {
+  module srv {
+    struct GetImportantWeights_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetImportantWeights_Response {
+      string weightsfile;
+    };
+  };
+};

@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-98e71449af8aeb409224.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cognitive_architecture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cognitive_architecture_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cognitive_architecture_egg-c6d265c8ef8829724540.json",
+					"name" : "ament_cmake_python_build_cognitive_architecture_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cognitive_architecture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cognitive_architecture-53bf4dcb4f0406e77307.json",
+					"name" : "ament_cmake_python_copy_cognitive_architecture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cognitive_architecture_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cognitive_architecture_uninstall-b0fd570d4212444c3930.json",
+					"name" : "cognitive_architecture_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_exe-57b8699f04b44001f27a.json",
+					"name" : "cpp_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "meta_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-meta_exe-327d27f3c0ed05e721fc.json",
+					"name" : "meta_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3836dd9af865d59899e6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture",
+		"source" : "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

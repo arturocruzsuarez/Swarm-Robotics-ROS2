@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arlo_interfaces/srv/EvaluateDriver.srv
+// generated code does not contain a copyright notice
+
+
+module arlo_interfaces {
+  module srv {
+    struct EvaluateDriver_Request {
+      string weightsfile;
+
+      int64 maxtime;
+    };
+    struct EvaluateDriver_Response {
+      double time;
+
+      double dist2go;
+
+      double damage;
+
+      double energy;
+
+      double dist2mates;
+    };
+  };
+};

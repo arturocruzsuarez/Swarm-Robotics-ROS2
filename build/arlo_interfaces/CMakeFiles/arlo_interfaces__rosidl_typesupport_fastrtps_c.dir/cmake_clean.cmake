@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/estado_arlo__type_support_c.cpp.o"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/estado_arlo__type_support_c.cpp.o.d"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/mates_odom__type_support_c.cpp.o"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/mates_odom__type_support_c.cpp.o.d"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/pesos_struct__type_support_c.cpp.o"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/pesos_struct__type_support_c.cpp.o.d"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/evaluate_driver__type_support_c.cpp.o"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/evaluate_driver__type_support_c.cpp.o.d"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_important_weights__type_support_c.cpp.o"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_important_weights__type_support_c.cpp.o.d"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_mates_fitness__type_support_c.cpp.o"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_mates_fitness__type_support_c.cpp.o.d"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_robot_pose__type_support_c.cpp.o"
+  "CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_robot_pose__type_support_c.cpp.o.d"
+  "libarlo_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libarlo_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/estado_arlo__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/estado_arlo__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/mates_odom__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/mates_odom__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/pesos_struct__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/pesos_struct__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/evaluate_driver__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/evaluate_driver__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_important_weights__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_important_weights__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_mates_fitness__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_mates_fitness__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_robot_pose__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_robot_pose__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

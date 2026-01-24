@@ -1,0 +1,13 @@
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/uninstall.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/cognitive_architecture_uninstall.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/cpp_exe.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/meta_exe.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/ament_cmake_python_copy_cognitive_architecture.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/ament_cmake_python_build_cognitive_architecture_egg.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/test.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/edit_cache.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/rebuild_cache.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/list_install_components.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/install.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/install/local.dir
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture/CMakeFiles/install/strip.dir

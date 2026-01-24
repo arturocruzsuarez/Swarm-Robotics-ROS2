@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from arlo_interfaces/msg/MatesOdom.msg
+// generated code does not contain a copyright notice
+
+#include "nav_msgs/msg/Odometry.idl"
+
+module arlo_interfaces {
+  module msg {
+    struct MatesOdom {
+      nav_msgs::msg::Odometry odom;
+
+      string name;
+    };
+  };
+};

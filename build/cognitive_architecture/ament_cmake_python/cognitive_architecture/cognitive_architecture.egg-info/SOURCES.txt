@@ -1,0 +1,9 @@
+setup.py
+cognitive_architecture/__init__.py
+cognitive_architecture/corteza_motora_primaria.py
+cognitive_architecture/lobulo_temporal.py
+cognitive_architecture/robot.py
+cognitive_architecture.egg-info/PKG-INFO
+cognitive_architecture.egg-info/SOURCES.txt
+cognitive_architecture.egg-info/dependency_links.txt
+cognitive_architecture.egg-info/top_level.txt

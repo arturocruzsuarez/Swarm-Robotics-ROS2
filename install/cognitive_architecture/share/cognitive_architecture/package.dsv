@@ -1,0 +1,8 @@
+source;share/cognitive_architecture/hook/cmake_prefix_path.ps1
+source;share/cognitive_architecture/hook/cmake_prefix_path.dsv
+source;share/cognitive_architecture/hook/cmake_prefix_path.sh
+source;share/cognitive_architecture/local_setup.bash
+source;share/cognitive_architecture/local_setup.dsv
+source;share/cognitive_architecture/local_setup.ps1
+source;share/cognitive_architecture/local_setup.sh
+source;share/cognitive_architecture/local_setup.zsh

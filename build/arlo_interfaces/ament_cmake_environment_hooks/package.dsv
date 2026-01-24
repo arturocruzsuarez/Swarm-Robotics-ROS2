@@ -1,0 +1,4 @@
+source;share/arlo_interfaces/local_setup.bash
+source;share/arlo_interfaces/local_setup.dsv
+source;share/arlo_interfaces/local_setup.sh
+source;share/arlo_interfaces/local_setup.zsh

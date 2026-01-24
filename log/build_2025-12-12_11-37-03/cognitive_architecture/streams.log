@@ -1,0 +1,505 @@
+[0.011s] Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture': CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture -- -j4 -l4
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target meta_exe[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target cpp_exe[0m
+[0.110s] [ 25%] [32mBuilding CXX object CMakeFiles/meta_exe.dir/src/controlador_meta.cpp.o[0m
+[0.111s] [ 25%] Built target ament_cmake_python_copy_cognitive_architecture
+[0.126s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/controlador_cpp.cpp.o[0m
+[0.808s] running egg_info
+[0.809s] writing cognitive_architecture.egg-info/PKG-INFO
+[0.813s] writing dependency_links to cognitive_architecture.egg-info/dependency_links.txt
+[0.813s] writing top-level names to cognitive_architecture.egg-info/top_level.txt
+[0.817s] reading manifest file 'cognitive_architecture.egg-info/SOURCES.txt'
+[0.817s] writing manifest file 'cognitive_architecture.egg-info/SOURCES.txt'
+[0.861s] [ 50%] Built target ament_cmake_python_build_cognitive_architecture_egg
+[4.055s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.h:4[m[K,
+[4.056s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:1[m[K,
+[4.056s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14[m[K,
+[4.056s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.056s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.056s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.057s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.057s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.057s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.057s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:23:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.057s]    23 |     [01;35m[Kconst[m[K int numVariables() const;
+[4.057s]       |     [01;35m[K^~~~~[m[K
+[4.058s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:24:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.058s]    24 |     [01;35m[Kconst[m[K int numRestricciones() const;
+[4.058s]       |     [01;35m[K^~~~~[m[K
+[4.072s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14[m[K,
+[4.072s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.072s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.072s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.072s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.073s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.073s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.073s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:[m[K In member function ‘[01m[Kvoid Individuo::x2cromosoma()[m[K’:
+[4.073s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:147:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentero[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.073s]   147 |     int [01;35m[Kentero[m[K;  // redondeo del valor d.
+[4.073s]       |         [01;35m[K^~~~~~[m[K
+[4.076s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:15[m[K,
+[4.076s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.076s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.077s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.077s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.077s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.077s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.077s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:[m[K At global scope:
+[4.077s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:18:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.078s]    18 | [01;35m[Kconst[m[K int ProblemaOptim::numVariables() const {
+[4.078s]       | [01;35m[K^~~~~[m[K
+[4.078s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:22:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.078s]    22 | [01;35m[Kconst[m[K int ProblemaOptim::numRestricciones() const {
+[4.078s]       | [01;35m[K^~~~~[m[K
+[4.144s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.h:4[m[K,
+[4.144s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:1[m[K,
+[4.144s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14[m[K,
+[4.144s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.144s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.145s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.145s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.145s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.145s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.145s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:23:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.146s]    23 |     [01;35m[Kconst[m[K int numVariables() const;
+[4.146s]       |     [01;35m[K^~~~~[m[K
+[4.146s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:24:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.146s]    24 |     [01;35m[Kconst[m[K int numRestricciones() const;
+[4.146s]       |     [01;35m[K^~~~~[m[K
+[4.160s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14[m[K,
+[4.160s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.160s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.160s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.161s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.161s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.161s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.161s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:[m[K In member function ‘[01m[Kvoid Individuo::x2cromosoma()[m[K’:
+[4.161s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:147:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentero[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.162s]   147 |     int [01;35m[Kentero[m[K;  // redondeo del valor d.
+[4.162s]       |         [01;35m[K^~~~~~[m[K
+[4.164s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:15[m[K,
+[4.164s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.165s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.165s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.165s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.165s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.165s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.165s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:[m[K At global scope:
+[4.166s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:18:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.166s]    18 | [01;35m[Kconst[m[K int ProblemaOptim::numVariables() const {
+[4.166s]       | [01;35m[K^~~~~[m[K
+[4.166s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:22:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[4.166s]    22 | [01;35m[Kconst[m[K int ProblemaOptim::numRestricciones() const {
+[4.167s]       | [01;35m[K^~~~~[m[K
+[4.202s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:16[m[K,
+[4.202s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.202s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.202s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.202s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.202s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.203s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.203s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:[m[K In member function ‘[01m[Kvoid EstadisticasGA::shortReport(std::ostream&, Individuo*, Individuo*, int, int)[m[K’:
+[4.203s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:135:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.203s]   135 |    int [01;35m[KcSize[m[K = oldpop[0].chromoSize;
+[4.203s]       |        [01;35m[K^~~~~[m[K
+[4.204s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:136:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnVars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.204s]   136 |    int [01;35m[KnVars[m[K = oldpop[0].x.size();
+[4.205s]       |        [01;35m[K^~~~~[m[K
+[4.288s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:16[m[K,
+[4.288s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7[m[K,
+[4.288s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17[m[K,
+[4.288s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.288s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.289s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.289s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.289s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:[m[K In member function ‘[01m[Kvoid EstadisticasGA::shortReport(std::ostream&, Individuo*, Individuo*, int, int)[m[K’:
+[4.289s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:135:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.289s]   135 |    int [01;35m[KcSize[m[K = oldpop[0].chromoSize;
+[4.289s]       |        [01;35m[K^~~~~[m[K
+[4.290s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:136:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnVars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.290s]   136 |    int [01;35m[KnVars[m[K = oldpop[0].x.size();
+[4.290s]       |        [01;35m[K^~~~~[m[K
+[4.364s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:19[m[K,
+[4.364s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.364s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.364s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.364s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.364s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:[m[K In member function ‘[01m[Kvirtual void RobotNaviFun::evaluateFun(const std::vector<double, std::allocator<double> >&, double&, std::vector<double, std::allocator<double> >&) const[m[K’:
+[4.365s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:56:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krestr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.365s]    56 | teFun(vector<double> const &x, double &fun, [01;35m[Kvector<double> &restr[m[K) const
+[4.365s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.365s] 
+[4.454s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:19[m[K,
+[4.454s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.455s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.455s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.455s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.455s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:[m[K In member function ‘[01m[Kvirtual void RobotNaviFun::evaluateFun(const std::vector<double, std::allocator<double> >&, double&, std::vector<double, std::allocator<double> >&) const[m[K’:
+[4.455s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:56:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krestr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.455s]    56 | void RobotNaviFun::evaluateFun(vector<double> const &x, double &fun, [01;35m[Kvector<double> &restr[m[K) const
+[4.456s]       |                                                                      [01;35m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.615s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.616s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.616s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.616s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.616s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:[m[K In constructor ‘[01m[Kcp::cp(int, RobotNaviFun*, ParamsGA, bool*, int)[m[K’:
+[4.616s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:46:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcp::identificador[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.616s]    46 |     int [01;35m[Kidentificador[m[K;
+[4.617s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[4.617s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KGeneticoSimple cp::genetico[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.617s]    45 |     GeneticoSimple [01;35m[Kgenetico[m[K;
+[4.617s]       |                    [01;35m[K^~~~~~~~[m[K
+[4.617s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.617s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.618s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.618s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.618s]     8 | [01;35m[Kcp[m[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :
+[4.618s]       | [01;35m[K^~[m[K
+[4.618s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.619s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.619s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.619s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.619s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcp::genetico[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.619s]    45 |     GeneticoSimple [01;35m[Kgenetico[m[K;
+[4.619s]       |                    [01;35m[K^~~~~~~~[m[K
+[4.620s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:44:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool* cp::flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.620s]    44 |     bool *[01;35m[Kflag[m[K;
+[4.620s]       |           [01;35m[K^~~~[m[K
+[4.620s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.620s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.620s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.621s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.621s]     8 | [01;35m[Kcp[m[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :
+[4.621s]       | [01;35m[K^~[m[K
+[4.698s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:17[m[K,
+[4.698s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1[m[K,
+[4.698s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[4.698s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.699s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[4.699s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:[m[K In member function ‘[01m[Kvoid NeuroControllerDriver::printOutputs(std::vector<double, std::allocator<double> >&)[m[K’:
+[4.699s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:142:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.699s]   142 | void NeuroControllerDriver::printOutputs([01;35m[Kvector<double> &y[m[K)
+[4.699s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[4.702s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.702s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.702s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.702s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.702s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:[m[K In constructor ‘[01m[Kcp::cp(int, RobotNaviFun*, ParamsGA, bool*, int)[m[K’:
+[4.703s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:46:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcp::identificador[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.703s]    46 |     int [01;35m[Kidentificador[m[K;
+[4.703s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[4.703s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KGeneticoSimple cp::genetico[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.703s]    45 |     GeneticoSimple [01;35m[Kgenetico[m[K;
+[4.703s]       |                    [01;35m[K^~~~~~~~[m[K
+[4.704s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.704s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.704s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.704s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.704s]     8 | [01;35m[Kcp[m[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :
+[4.705s]       | [01;35m[K^~[m[K
+[4.705s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1[m[K,
+[4.705s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.705s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.705s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.706s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcp::genetico[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.706s]    45 |     GeneticoSimple [01;35m[Kgenetico[m[K;
+[4.706s]       |                    [01;35m[K^~~~~~~~[m[K
+[4.706s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:44:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool* cp::flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.706s]    44 |     bool *[01;35m[Kflag[m[K;
+[4.706s]       |           [01;35m[K^~~~[m[K
+[4.707s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5[m[K,
+[4.707s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.707s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.707s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.707s]     8 | [01;35m[Kcp[m[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :
+[4.708s]       | [01;35m[K^~[m[K
+[4.708s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:[m[K In member function ‘[01m[Kvoid NeuroControllerDriver::readWeights()[m[K’:
+[4.708s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:200:29:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::ios_base::failure[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[4.708s]   200 |    catch (ifstream::failure [01;35m[Ke[m[K)
+[4.708s]       |                             [01;35m[K^[m[K
+[4.715s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:[m[K In member function ‘[01m[Kvoid NeuroControllerDriver::dropout(double)[m[K’:
+[4.715s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:240:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnumNeurons[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.715s]   240 |    int [01;35m[KnumNeurons[m[K = 0;
+[4.715s]       |        [01;35m[K^~~~~~~~~~[m[K
+[4.716s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:238:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.716s]   238 | void NeuroControllerDriver::dropout([01;35m[Kdouble p[m[K)
+[4.716s]       |                                     [01;35m[K~~~~~~~^[m[K
+[4.780s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:17[m[K,
+[4.781s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1[m[K,
+[4.781s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[4.781s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[4.781s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[4.781s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:[m[K In member function ‘[01m[Kvoid NeuroControllerDriver::printOutputs(std::vector<double, std::allocator<double> >&)[m[K’:
+[4.782s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:142:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.782s]   142 | void NeuroControllerDriver::printOutputs([01;35m[Kvector<double> &y[m[K)
+[4.782s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[4.788s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:[m[K In member function ‘[01m[Kvoid NeuroControllerDriver::readWeights()[m[K’:
+[4.788s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:200:29:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::ios_base::failure[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[4.788s]   200 |    catch (ifstream::failure [01;35m[Ke[m[K)
+[4.788s]       |                             [01;35m[K^[m[K
+[4.793s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:[m[K In member function ‘[01m[Kvoid NeuroControllerDriver::dropout(double)[m[K’:
+[4.793s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:240:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnumNeurons[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.793s]   240 |    int [01;35m[KnumNeurons[m[K = 0;
+[4.793s]       |        [01;35m[K^~~~~~~~~~[m[K
+[4.793s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:238:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.794s]   238 | void NeuroControllerDriver::dropout([01;35m[Kdouble p[m[K)
+[4.794s]       |                                     [01;35m[K~~~~~~~^[m[K
+[5.062s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1[m[K,
+[5.062s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.063s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.063s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[5.063s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:[m[K In constructor ‘[01m[KCmSec::CmSec(int, char, int, double, double, double)[m[K’:
+[5.063s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:68:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KCmSec::identificador[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.063s]    68 |    int [01;35m[Kidentificador[m[K;
+[5.063s]       |        [01;35m[K^~~~~~~~~~~~~[m[K
+[5.064s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:63:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint CmSec::task[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.064s]    63 |    int [01;35m[Ktask[m[K;
+[5.064s]       |        [01;35m[K^~~~[m[K
+[5.064s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.064s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.065s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[5.065s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.065s]     6 | [01;35m[KCmSec[m[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :
+[5.065s]       | [01;35m[K^~~~~[m[K
+[5.065s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1[m[K,
+[5.065s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.066s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.066s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[5.066s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:69:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KCmSec::redNeuronal[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.066s]    69 |    NeuroControllerDriver [01;35m[KredNeuronal[m[K;
+[5.066s]       |                          [01;35m[K^~~~~~~~~~~[m[K
+[5.066s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:65:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint CmSec::tipo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.067s]    65 |    int [01;35m[Ktipo[m[K;
+[5.067s]       |        [01;35m[K^~~~[m[K
+[5.067s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.067s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.067s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[5.068s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.068s]     6 | [01;35m[KCmSec[m[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :
+[5.068s]       | [01;35m[K^~~~~[m[K
+[5.135s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1[m[K,
+[5.135s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.136s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.136s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[5.136s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:[m[K In constructor ‘[01m[KCmSec::CmSec(int, char, int, double, double, double)[m[K’:
+[5.136s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:68:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KCmSec::identificador[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.136s]    68 |    int [01;35m[Kidentificador[m[K;
+[5.137s]       |        [01;35m[K^~~~~~~~~~~~~[m[K
+[5.137s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:63:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint CmSec::task[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.137s]    63 |    int [01;35m[Ktask[m[K;
+[5.137s]       |        [01;35m[K^~~~[m[K
+[5.137s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.138s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.139s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[5.139s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.140s]     6 | [01;35m[KCmSec[m[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :
+[5.140s]       | [01;35m[K^~~~~[m[K
+[5.140s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1[m[K,
+[5.140s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.140s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.141s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[5.141s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:69:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KCmSec::redNeuronal[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.141s]    69 |    NeuroControllerDriver [01;35m[KredNeuronal[m[K;
+[5.141s]       |                          [01;35m[K^~~~~~~~~~~[m[K
+[5.141s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:65:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint CmSec::tipo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.141s]    65 |    int [01;35m[Ktipo[m[K;
+[5.142s]       |        [01;35m[K^~~~[m[K
+[5.142s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.142s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.142s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[5.142s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.143s]     6 | [01;35m[KCmSec[m[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :
+[5.143s]       | [01;35m[K^~~~~[m[K
+[5.152s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.152s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.152s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[5.152s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:[m[K In member function ‘[01m[Kbool CmSec::service_importantWeights(std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Response_<std::allocator<void> > >)[m[K’:
+[5.152s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:155:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.153s]   155 | [01;35m[Kshared_ptr<arlo_interfaces::srv::GetImportantWeights::Request> request[m[K,
+[5.153s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.153s] 
+[5.153s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:[m[K In member function ‘[01m[Kbool CmSec::service_send_fitness(std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Response_<std::allocator<void> > >)[m[K’:
+[5.153s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:163:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.154s]   163 | [01;35m[Ktd::shared_ptr<arlo_interfaces::srv::GetMatesFitness::Request> request[m[K,
+[5.154s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.154s] 
+[5.224s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6[m[K,
+[5.224s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[5.224s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[5.225s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:[m[K In member function ‘[01m[Kbool CmSec::service_importantWeights(std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Response_<std::allocator<void> > >)[m[K’:
+[5.225s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:155:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.225s]   155 | bool CmSec::service_importantWeights([01;35m[Kconst std::shared_ptr<arlo_interfaces::srv::GetImportantWeights::Request> request[m[K,
+[5.225s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.226s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:[m[K In member function ‘[01m[Kbool CmSec::service_send_fitness(std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Response_<std::allocator<void> > >)[m[K’:
+[5.226s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:163:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.226s]   163 | bool CmSec::service_send_fitness([01;35m[Kconst std::shared_ptr<arlo_interfaces::srv::GetMatesFitness::Request> request[m[K,
+[5.226s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[19.555s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:8[m[K,
+[19.555s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[19.556s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[19.556s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:[m[K In constructor ‘[01m[KsrvMultipleGoals::srvMultipleGoals(double, double, Miscelaneo*)[m[K’:
+[19.556s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:3:102:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.srvMultipleGoals::<anonymous>.srvEvaluateDriver::misc[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[19.556s]     3 |  x, double y, Miscelaneo *misc_): srvEvaluateDriver(x,y,misc[01;35m[K)[m[K //Node("servidor_simulacion_Multiple_Goals")
+[19.556s]       |                                                             [01;35m[K^[m[K
+[19.557s] 
+[19.557s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:9[m[K,
+[19.557s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[19.557s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9[m[K:
+[19.558s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:[m[K In constructor ‘[01m[KsrvTeamMovement::srvTeamMovement(double, double, Miscelaneo*)[m[K’:
+[19.558s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:3:101:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.srvTeamMovement::<anonymous>.srvEvaluateDriver::misc[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[19.558s]     3 | x, double y, Miscelaneo * misc_): srvEvaluateDriver(x,y,misc[01;35m[K)[m[K // hay que agregar el id del robot que le corresponda
+[19.558s]       |                                                             [01;35m[K^[m[K
+[19.558s] 
+[19.634s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:8[m[K,
+[19.634s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[19.635s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[19.635s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:[m[K In constructor ‘[01m[KsrvMultipleGoals::srvMultipleGoals(double, double, Miscelaneo*)[m[K’:
+[19.635s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:3:102:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.srvMultipleGoals::<anonymous>.srvEvaluateDriver::misc[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[19.635s]     3 | srvMultipleGoals::srvMultipleGoals(double x, double y, Miscelaneo *misc_): srvEvaluateDriver(x,y,misc[01;35m[K)[m[K //Node("servidor_simulacion_Multiple_Goals")
+[19.635s]       |                                                                                                      [01;35m[K^[m[K
+[19.636s] In file included from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:9[m[K,
+[19.636s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1[m[K,
+[19.636s]                  from [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:9[m[K:
+[19.636s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:[m[K In constructor ‘[01m[KsrvTeamMovement::srvTeamMovement(double, double, Miscelaneo*)[m[K’:
+[19.636s] [01m[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:3:101:[m[K [01;35m[Kwarning: [m[K‘[01m[K*this.srvTeamMovement::<anonymous>.srvEvaluateDriver::misc[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[19.636s]     3 | srvTeamMovement::srvTeamMovement(double x, double y, Miscelaneo * misc_): srvEvaluateDriver(x,y,misc[01;35m[K)[m[K // hay que agregar el id del robot que le corresponda
+[19.637s]       |                                                                                                     [01;35m[K^[m[K
+[37.297s] [100%] [32m[1mLinking CXX executable cpp_exe[0m
+[37.297s] [100%] [32m[1mLinking CXX executable meta_exe[0m
+[40.093s] [100%] Built target cpp_exe
+[40.830s] [100%] Built target meta_exe
+[40.847s] Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture' returned '0': CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture -- -j4 -l4
+[40.849s] Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture': CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture
+[40.859s] -- Install configuration: ""
+[40.860s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/cpp_exe
+[40.876s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/cpp_exe" to ""
+[40.876s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/meta_exe
+[40.892s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/meta_exe" to ""
+[40.892s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/pythonpath.sh
+[40.892s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/pythonpath.dsv
+[40.893s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info
+[40.893s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/dependency_links.txt
+[40.893s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/top_level.txt
+[40.893s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/PKG-INFO
+[40.893s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/SOURCES.txt
+[40.893s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture
+[40.894s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/corteza_motora_primaria.py
+[40.894s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/robot.py
+[40.894s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/README.md
+[40.894s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/__init__.py
+[40.894s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/lobulo_temporal.py
+[40.951s] Listing '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture'...
+[40.958s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/Controlador_individuo.py
+[40.958s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch
+[40.958s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch/gazebo.launch.py
+[40.959s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch/dummys.launch.py
+[40.959s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch/meta_trainning.launch.py
+[40.959s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models
+[40.959s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target
+[40.959s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/model.config
+[40.959s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes
+[40.960s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/curling.dae
+[40.960s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/target.png
+[40.960s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/curling_target.dae
+[40.960s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/diana.blend
+[40.960s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/diana.blend1
+[40.960s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/materials
+[40.961s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/materials/textures
+[40.962s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/materials/textures/target.png
+[40.962s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/curling_target.sdf
+[40.962s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane
+[40.962s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/model.config
+[40.962s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/checkerboard_plane.sdf
+[40.963s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/meshes
+[40.963s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/meshes/checker.png
+[40.963s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/meshes/checkerboard_plane.dae
+[40.963s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/materials
+[40.963s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/materials/textures
+[40.963s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/materials/textures/checker.png
+[40.964s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/bardas_madera
+[40.964s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/bardas_madera/model.config
+[40.964s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/bardas_madera/model.sdf
+[40.964s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet
+[40.965s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/cerebral_carpet.sdf
+[40.966s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/model.config
+[40.966s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes
+[40.966s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/cerebral_carpet.dae
+[40.967s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/curling.dae
+[40.967s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/cerebral_carpet.svg
+[40.967s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/target.png
+[40.967s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/diana.blend
+[40.967s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/diana.blend1
+[40.967s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/materials
+[40.967s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/materials/textures
+[40.968s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/materials/textures/target.png
+[40.968s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arrow_red
+[40.969s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arrow_red/model.config
+[40.969s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arrow_red/model.sdf
+[40.969s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal
+[40.969s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/model.config
+[40.969s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/cerebral_goal.sdf
+[40.970s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes
+[40.970s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/cerebral_goal.svg
+[40.970s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/curling.dae
+[40.970s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/cerebral_carpet.svg
+[40.970s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/target.png
+[40.970s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/diana.blend
+[40.971s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/diana.blend1
+[40.971s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/cerebral_goal.dae
+[40.971s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/materials
+[40.971s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/materials/textures
+[40.971s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/materials/textures/target.png
+[40.972s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo
+[40.972s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/arlourdf.urdf
+[40.972s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/model.config
+[40.972s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/prueba.urdf
+[40.972s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_base_altura_ok.dae
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_wheel_mejorado_backup.dae
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Rueda_izquierda_link.STL
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_base_backup.dae
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Rueda_derecha_link.STL
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Rueda_castor_link.STL
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_sensor.dae
+[40.973s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/base_link.STL
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Base_castor_link.STL
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_wheel_mejorado.dae
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_base.dae
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_wheel.dae
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/model.sdf
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/curling_obstaculo.world.xml
+[40.974s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/box_bot_empty.world
+[40.975s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/arena_cerebral.world
+[40.975s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/walk_verde.dae
+[40.975s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/escenarioRiesgoso.world.docx
+[40.975s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/cafe_uam_1.world
+[40.975s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/cafe_uam.world.docx
+[40.975s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/curling_empty_field.world.xml
+[40.975s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/pista_pasillo_cerebral.world
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/curling_libre.world.xml
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/pista_herradura.world
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/basic_house_obstacles.world.xml
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/escenarioAusteroCalvos.world.docx
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/pista_herradura_cerebral.world
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/bote_azul_obstaculos.world.xml
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/cuadrilatero_obstaculos.world.xml
+[40.976s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/bote_azul_libre.world.xml
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/laberinto_01.world
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/escenarioAustero.world.docx
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/ament_index/resource_index/package_run_dependencies/cognitive_architecture
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/ament_index/resource_index/parent_prefix_path/cognitive_architecture
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/ament_prefix_path.sh
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/ament_prefix_path.dsv
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/path.sh
+[40.977s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/path.dsv
+[40.978s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.bash
+[40.978s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.sh
+[40.978s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.zsh
+[40.978s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.dsv
+[40.978s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.dsv
+[40.978s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/ament_index/resource_index/packages/cognitive_architecture
+[40.978s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/cmake/cognitive_architectureConfig.cmake
+[40.978s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/cmake/cognitive_architectureConfig-version.cmake
+[40.979s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.xml
+[40.979s] Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture' returned '0': CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture

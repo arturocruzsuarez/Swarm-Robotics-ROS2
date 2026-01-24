@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arlo_interfaces/srv/GetRobotPose.srv
+// generated code does not contain a copyright notice
+
+
+module arlo_interfaces {
+  module srv {
+    struct GetRobotPose_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Respuesta con las coordenadas del robot")
+    struct GetRobotPose_Response {
+      double x;
+
+      double y;
+    };
+  };
+};

@@ -1,0 +1,216 @@
+[0.140s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.140s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7af9e0a32020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7af9e0a31b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7af9e0a31b10>>, mixin_verb=('build',))
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.408s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(arlo_interfaces) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'arlo_interfaces' with type 'ros.ament_cmake' and name 'arlo_interfaces'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(cognitive_architecture) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package 'cognitive_architecture' with type 'ros.ament_cmake' and name 'cognitive_architecture'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(salidafinal) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'arlo_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.542s] DEBUG:colcon.colcon_core.verb:Building package 'arlo_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces', 'merge_install': False, 'path': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'cmake_target' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'cmake_clean_first' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'cmake_force_configure' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'ament_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'cognitive_architecture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.543s] DEBUG:colcon.colcon_core.verb:Building package 'cognitive_architecture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture', 'merge_install': False, 'path': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture', 'symlink_install': False, 'test_result_base': None}
+[0.543s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.544s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces' with build type 'ament_cmake'
+[0.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces'
+[0.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces
+[3.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces
+[3.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces -- -j4 -l4
+[17.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces -- -j4 -l4
+[17.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces
+[17.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arlo_interfaces)
+[17.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces
+[17.909s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces' for CMake module files
+[17.911s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces' for CMake config files
+[17.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('arlo_interfaces', 'cmake_prefix_path')
+[17.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/cmake_prefix_path.ps1'
+[17.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/cmake_prefix_path.dsv'
+[17.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/cmake_prefix_path.sh'
+[17.915s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib'
+[17.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('arlo_interfaces', 'ld_library_path_lib')
+[17.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/ld_library_path_lib.ps1'
+[17.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/ld_library_path_lib.dsv'
+[17.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/ld_library_path_lib.sh'
+[17.917s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/bin'
+[17.917s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/pkgconfig/arlo_interfaces.pc'
+[17.917s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/python3.10/site-packages'
+[17.918s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/bin'
+[17.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.ps1'
+[17.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.dsv'
+[17.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.sh'
+[17.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.bash'
+[17.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.zsh'
+[17.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/colcon-core/packages/arlo_interfaces)
+[17.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arlo_interfaces)
+[17.924s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces' for CMake module files
+[17.926s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces' for CMake config files
+[17.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('arlo_interfaces', 'cmake_prefix_path')
+[17.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/cmake_prefix_path.ps1'
+[17.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/cmake_prefix_path.dsv'
+[17.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/cmake_prefix_path.sh'
+[17.929s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib'
+[17.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('arlo_interfaces', 'ld_library_path_lib')
+[17.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/ld_library_path_lib.ps1'
+[17.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/ld_library_path_lib.dsv'
+[17.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/hook/ld_library_path_lib.sh'
+[17.931s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/bin'
+[17.931s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/pkgconfig/arlo_interfaces.pc'
+[17.932s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/python3.10/site-packages'
+[17.932s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/bin'
+[17.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.ps1'
+[17.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.dsv'
+[17.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.sh'
+[17.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.bash'
+[17.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.zsh'
+[17.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/colcon-core/packages/arlo_interfaces)
+[17.937s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture' with build type 'ament_cmake'
+[17.937s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture'
+[17.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture': AMENT_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture
+[19.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture' returned '0': AMENT_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture
+[19.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture': AMENT_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture -- -j4 -l4
+[59.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture' returned '0': AMENT_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture -- -j4 -l4
+[59.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture': AMENT_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture
+[59.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cognitive_architecture)
+[59.748s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture' for CMake module files
+[59.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture' returned '0': AMENT_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture
+[59.750s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture' for CMake config files
+[59.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('cognitive_architecture', 'cmake_prefix_path')
+[59.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/hook/cmake_prefix_path.ps1'
+[59.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/hook/cmake_prefix_path.dsv'
+[59.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/hook/cmake_prefix_path.sh'
+[59.754s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib'
+[59.754s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/bin'
+[59.755s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/pkgconfig/cognitive_architecture.pc'
+[59.755s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/python3.10/site-packages'
+[59.756s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/bin'
+[59.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.ps1'
+[59.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.dsv'
+[59.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.sh'
+[59.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.bash'
+[59.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.zsh'
+[59.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/colcon-core/packages/cognitive_architecture)
+[59.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cognitive_architecture)
+[59.760s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture' for CMake module files
+[59.761s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture' for CMake config files
+[59.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('cognitive_architecture', 'cmake_prefix_path')
+[59.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/hook/cmake_prefix_path.ps1'
+[59.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/hook/cmake_prefix_path.dsv'
+[59.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/hook/cmake_prefix_path.sh'
+[59.766s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib'
+[59.766s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/bin'
+[59.766s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/pkgconfig/cognitive_architecture.pc'
+[59.766s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/python3.10/site-packages'
+[59.767s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/bin'
+[59.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.ps1'
+[59.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.dsv'
+[59.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.sh'
+[59.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.bash'
+[59.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.zsh'
+[59.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/colcon-core/packages/cognitive_architecture)
+[59.772s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[59.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[59.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[59.774s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[59.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[59.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[59.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[59.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[59.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/local_setup.ps1'
+[59.823s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/_local_setup_util_ps1.py'
+[59.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/setup.ps1'
+[59.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/local_setup.sh'
+[59.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/_local_setup_util_sh.py'
+[59.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/setup.sh'
+[59.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/local_setup.bash'
+[59.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/setup.bash'
+[59.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/local_setup.zsh'
+[59.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/setup.zsh'

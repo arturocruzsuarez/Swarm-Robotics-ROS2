@@ -1,0 +1,12 @@
+{
+  "package_name": "arlo_interfaces",
+  "non_idl_tuples": [
+    "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces:msg/PesosStruct.msg",
+    "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces:msg/EstadoArlo.msg",
+    "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces:msg/MatesOdom.msg",
+    "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces:srv/EvaluateDriver.srv",
+    "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces:srv/GetImportantWeights.srv",
+    "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces:srv/GetMatesFitness.srv",
+    "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces:srv/GetRobotPose.srv"
+  ]
+}

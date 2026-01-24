@@ -1,0 +1,427 @@
+[0.012s] Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.165s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.414s] -- Detecting CXX compile features - done
+[0.417s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.657s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.815s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.916s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.924s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.936s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.062s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.088s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.673s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.824s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.826s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.865s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.865s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.865s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.865s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.894s] -- Found PythonExtra: .so  
+[3.057s] -- Configuring done
+[3.128s] -- Generating done
+[3.148s] -- Build files have been written to: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces
+[3.161s] Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces
+[3.165s] Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces -- -j4 -l4
+[3.223s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.238s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.249s] [  2%] Built target ament_cmake_python_copy_arlo_interfaces
+[3.817s] running egg_info
+[3.818s] creating arlo_interfaces.egg-info
+[3.819s] writing arlo_interfaces.egg-info/PKG-INFO
+[3.819s] writing dependency_links to arlo_interfaces.egg-info/dependency_links.txt
+[3.821s] writing top-level names to arlo_interfaces.egg-info/top_level.txt
+[3.821s] writing manifest file 'arlo_interfaces.egg-info/SOURCES.txt'
+[3.823s] reading manifest file 'arlo_interfaces.egg-info/SOURCES.txt'
+[3.824s] writing manifest file 'arlo_interfaces.egg-info/SOURCES.txt'
+[3.879s] [  2%] Built target ament_cmake_python_build_arlo_interfaces_egg
+[4.563s] [  2%] Built target arlo_interfaces__cpp
+[4.594s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.601s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.613s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.942s] [  7%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arlo_interfaces/msg/detail/pesos_struct__functions.c.o[0m
+[5.053s] [  8%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arlo_interfaces/msg/detail/estado_arlo__functions.c.o[0m
+[5.164s] [ 10%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arlo_interfaces/msg/detail/mates_odom__functions.c.o[0m
+[5.283s] [ 11%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arlo_interfaces/srv/detail/evaluate_driver__functions.c.o[0m
+[5.476s] [ 12%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arlo_interfaces/srv/detail/get_important_weights__functions.c.o[0m
+[5.634s] [ 13%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arlo_interfaces/srv/detail/get_mates_fitness__functions.c.o[0m
+[5.766s] [ 15%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arlo_interfaces/srv/detail/get_robot_pose__functions.c.o[0m
+[5.799s] [ 16%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arlo_interfaces/msg/pesos_struct__type_support.cpp.o[0m
+[5.892s] [ 17%] [32m[1mLinking C shared library libarlo_interfaces__rosidl_generator_c.so[0m
+[5.986s] [ 17%] Built target arlo_interfaces__rosidl_generator_c
+[6.005s] [ 18%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arlo_interfaces/msg/estado_arlo__type_support.cpp.o[0m
+[6.255s] [ 20%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arlo_interfaces/msg/detail/pesos_struct__type_support.cpp.o[0m
+[6.543s] [ 21%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arlo_interfaces/msg/detail/dds_fastrtps/pesos_struct__type_support.cpp.o[0m
+[6.548s] [ 22%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arlo_interfaces/msg/mates_odom__type_support.cpp.o[0m
+[6.791s] [ 24%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arlo_interfaces/msg/detail/estado_arlo__type_support.cpp.o[0m
+[7.529s] [ 25%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arlo_interfaces/srv/evaluate_driver__type_support.cpp.o[0m
+[7.760s] [ 26%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arlo_interfaces/msg/detail/mates_odom__type_support.cpp.o[0m
+[8.085s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.177s] [ 29%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arlo_interfaces/msg/detail/dds_fastrtps/estado_arlo__type_support.cpp.o[0m
+[8.467s] [ 30%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arlo_interfaces/srv/get_important_weights__type_support.cpp.o[0m
+[8.851s] [ 31%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arlo_interfaces/srv/detail/evaluate_driver__type_support.cpp.o[0m
+[9.347s] [ 32%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arlo_interfaces/srv/get_mates_fitness__type_support.cpp.o[0m
+[9.460s] [ 34%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arlo_interfaces/msg/detail/dds_fastrtps/mates_odom__type_support.cpp.o[0m
+[10.356s] [ 35%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arlo_interfaces/srv/get_robot_pose__type_support.cpp.o[0m
+[10.366s] [ 36%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arlo_interfaces/srv/detail/get_important_weights__type_support.cpp.o[0m
+[10.424s] [ 37%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/pesos_struct__type_support_c.cpp.o[0m
+[10.693s] [ 39%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arlo_interfaces/srv/detail/dds_fastrtps/evaluate_driver__type_support.cpp.o[0m
+[11.045s] [ 40%] [32m[1mLinking CXX shared library libarlo_interfaces__rosidl_typesupport_cpp.so[0m
+[11.137s] [ 40%] Built target arlo_interfaces__rosidl_typesupport_cpp
+[11.159s] [ 41%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/estado_arlo__type_support_c.cpp.o[0m
+[11.596s] [ 43%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/msg/detail/mates_odom__type_support_c.cpp.o[0m
+[11.628s] [ 44%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arlo_interfaces/srv/detail/get_mates_fitness__type_support.cpp.o[0m
+[12.267s] [ 45%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arlo_interfaces/srv/detail/dds_fastrtps/get_important_weights__type_support.cpp.o[0m
+[12.406s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.942s] [ 48%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arlo_interfaces/srv/detail/get_robot_pose__type_support.cpp.o[0m
+[12.994s] [ 49%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/evaluate_driver__type_support_c.cpp.o[0m
+[13.445s] [ 50%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arlo_interfaces/srv/detail/dds_fastrtps/get_mates_fitness__type_support.cpp.o[0m
+[14.247s] [ 51%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_important_weights__type_support_c.cpp.o[0m
+[14.292s] [ 53%] [32m[1mLinking CXX shared library libarlo_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[14.477s] [ 54%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arlo_interfaces/msg/detail/pesos_struct__type_support.c.o[0m
+[14.502s] [ 54%] Built target arlo_interfaces__rosidl_typesupport_introspection_cpp
+[14.522s] [ 55%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arlo_interfaces/srv/detail/dds_fastrtps/get_robot_pose__type_support.cpp.o[0m
+[14.554s] [ 56%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arlo_interfaces/msg/detail/estado_arlo__type_support.c.o[0m
+[14.582s] [ 58%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_mates_fitness__type_support_c.cpp.o[0m
+[14.638s] [ 59%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arlo_interfaces/msg/detail/mates_odom__type_support.c.o[0m
+[14.711s] [ 60%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arlo_interfaces/srv/detail/evaluate_driver__type_support.c.o[0m
+[14.791s] [ 62%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arlo_interfaces/srv/detail/get_important_weights__type_support.c.o[0m
+[14.871s] [ 63%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arlo_interfaces/srv/detail/get_mates_fitness__type_support.c.o[0m
+[14.946s] [ 64%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arlo_interfaces/srv/detail/get_robot_pose__type_support.c.o[0m
+[15.025s] [ 65%] [32m[1mLinking C shared library libarlo_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.099s] [ 65%] Built target arlo_interfaces__rosidl_typesupport_introspection_c
+[15.120s] [ 67%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arlo_interfaces/srv/detail/get_robot_pose__type_support_c.cpp.o[0m
+[15.240s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.539s] [ 69%] [32m[1mLinking CXX shared library libarlo_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.679s] [ 69%] Built target arlo_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.880s] [ 70%] [32m[1mLinking CXX shared library libarlo_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[15.991s] [ 70%] Built target arlo_interfaces__rosidl_typesupport_fastrtps_c
+[16.099s] [ 73%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arlo_interfaces/msg/pesos_struct__type_support.cpp.o[0m
+[16.101s] [ 74%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arlo_interfaces/msg/mates_odom__type_support.cpp.o[0m
+[16.101s] [ 74%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arlo_interfaces/srv/evaluate_driver__type_support.cpp.o[0m
+[16.104s] [ 75%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arlo_interfaces/msg/estado_arlo__type_support.cpp.o[0m
+[16.158s] [ 77%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arlo_interfaces/srv/get_important_weights__type_support.cpp.o[0m
+[16.166s] [ 78%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arlo_interfaces/srv/get_mates_fitness__type_support.cpp.o[0m
+[16.168s] [ 79%] [32mBuilding CXX object CMakeFiles/arlo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arlo_interfaces/srv/get_robot_pose__type_support.cpp.o[0m
+[16.231s] [ 81%] [32m[1mLinking CXX shared library libarlo_interfaces__rosidl_typesupport_c.so[0m
+[16.286s] [ 81%] Built target arlo_interfaces__rosidl_typesupport_c
+[16.313s] [ 81%] Built target arlo_interfaces
+[16.342s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.977s] [ 82%] Built target arlo_interfaces__py
+[18.007s] [ 83%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arlo_interfaces/msg/_pesos_struct_s.c.o[0m
+[18.007s] [ 84%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arlo_interfaces/srv/_evaluate_driver_s.c.o[0m
+[18.008s] [ 86%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arlo_interfaces/msg/_mates_odom_s.c.o[0m
+[18.009s] [ 87%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arlo_interfaces/msg/_estado_arlo_s.c.o[0m
+[18.292s] [ 88%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arlo_interfaces/srv/_get_important_weights_s.c.o[0m
+[18.293s] [ 91%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arlo_interfaces/srv/_get_mates_fitness_s.c.o[0m
+[18.293s] [ 91%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arlo_interfaces/srv/_get_robot_pose_s.c.o[0m
+[18.537s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/arlo_interfaces/libarlo_interfaces__rosidl_generator_py.so[0m
+[18.603s] [ 92%] Built target arlo_interfaces__rosidl_generator_py
+[18.632s] [ 93%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arlo_interfaces/_arlo_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.640s] [ 94%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arlo_interfaces/_arlo_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.641s] [ 96%] [32mBuilding C object CMakeFiles/arlo_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arlo_interfaces/_arlo_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.870s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.936s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.953s] [ 98%] Built target arlo_interfaces__rosidl_typesupport_introspection_c__pyext
+[18.959s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.018s] [100%] Built target arlo_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.031s] [100%] Built target arlo_interfaces__rosidl_typesupport_c__pyext
+[19.048s] Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces -- -j4 -l4
+[19.062s] Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces
+[19.072s] -- Install configuration: ""
+[19.072s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/ament_index/resource_index/rosidl_interfaces/arlo_interfaces
+[19.073s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces
+[19.073s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv
+[19.073s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/get_important_weights.h
+[19.073s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail
+[19.074s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__functions.c
+[19.074s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__type_support.h
+[19.074s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__functions.h
+[19.074s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__functions.c
+[19.075s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__functions.c
+[19.075s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__type_support.h
+[19.075s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__struct.h
+[19.075s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__functions.h
+[19.076s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__struct.h
+[19.076s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__functions.h
+[19.076s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__type_support.h
+[19.076s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__functions.h
+[19.077s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__struct.h
+[19.077s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__type_support.h
+[19.077s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__functions.c
+[19.077s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__struct.h
+[19.078s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/get_mates_fitness.h
+[19.078s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/get_robot_pose.h
+[19.078s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/evaluate_driver.h
+[19.078s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg
+[19.079s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/rosidl_generator_c__visibility_control.h
+[19.079s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/pesos_struct.h
+[19.079s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/estado_arlo.h
+[19.079s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail
+[19.079s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__struct.h
+[19.080s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__functions.h
+[19.080s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__functions.c
+[19.080s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__functions.c
+[19.080s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__type_support.h
+[19.080s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__functions.h
+[19.081s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__struct.h
+[19.081s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__functions.h
+[19.081s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__struct.h
+[19.081s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__type_support.h
+[19.082s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__type_support.h
+[19.082s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__functions.c
+[19.082s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/mates_odom.h
+[19.082s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/library_path.sh
+[19.082s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/library_path.dsv
+[19.083s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_generator_c.so
+[19.083s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_generator_c.so" to ""
+[19.083s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces
+[19.084s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv
+[19.084s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail
+[19.084s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__rosidl_typesupport_fastrtps_c.h
+[19.084s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__rosidl_typesupport_fastrtps_c.h
+[19.085s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__rosidl_typesupport_fastrtps_c.h
+[19.085s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__rosidl_typesupport_fastrtps_c.h
+[19.085s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg
+[19.085s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.085s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail
+[19.085s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__rosidl_typesupport_fastrtps_c.h
+[19.086s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__rosidl_typesupport_fastrtps_c.h
+[19.086s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__rosidl_typesupport_fastrtps_c.h
+[19.086s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.086s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.086s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces
+[19.087s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv
+[19.087s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/get_mates_fitness.hpp
+[19.087s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/evaluate_driver.hpp
+[19.087s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/get_robot_pose.hpp
+[19.087s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/get_important_weights.hpp
+[19.088s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail
+[19.088s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__type_support.hpp
+[19.088s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__traits.hpp
+[19.088s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__type_support.hpp
+[19.088s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__builder.hpp
+[19.089s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__type_support.hpp
+[19.089s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__builder.hpp
+[19.089s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__traits.hpp
+[19.089s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__struct.hpp
+[19.089s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__traits.hpp
+[19.089s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__builder.hpp
+[19.090s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__struct.hpp
+[19.090s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__struct.hpp
+[19.090s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__builder.hpp
+[19.090s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__type_support.hpp
+[19.090s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__struct.hpp
+[19.091s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__traits.hpp
+[19.091s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg
+[19.091s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/mates_odom.hpp
+[19.091s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.091s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/estado_arlo.hpp
+[19.092s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail
+[19.092s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__builder.hpp
+[19.092s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__type_support.hpp
+[19.092s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__struct.hpp
+[19.092s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__traits.hpp
+[19.092s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__traits.hpp
+[19.093s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__type_support.hpp
+[19.093s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__struct.hpp
+[19.093s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__builder.hpp
+[19.093s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__struct.hpp
+[19.093s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__builder.hpp
+[19.094s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__traits.hpp
+[19.094s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__type_support.hpp
+[19.094s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/pesos_struct.hpp
+[19.094s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces
+[19.095s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv
+[19.095s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail
+[19.095s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/dds_fastrtps
+[19.095s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[19.095s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__rosidl_typesupport_fastrtps_cpp.hpp
+[19.096s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__rosidl_typesupport_fastrtps_cpp.hpp
+[19.096s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__rosidl_typesupport_fastrtps_cpp.hpp
+[19.096s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg
+[19.096s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.096s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail
+[19.097s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/dds_fastrtps
+[19.097s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__rosidl_typesupport_fastrtps_cpp.hpp
+[19.097s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__rosidl_typesupport_fastrtps_cpp.hpp
+[19.097s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__rosidl_typesupport_fastrtps_cpp.hpp
+[19.097s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.098s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.098s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces
+[19.098s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv
+[19.098s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail
+[19.098s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__rosidl_typesupport_introspection_c.h
+[19.098s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__type_support.c
+[19.099s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__rosidl_typesupport_introspection_c.h
+[19.099s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__type_support.c
+[19.099s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__type_support.c
+[19.099s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__rosidl_typesupport_introspection_c.h
+[19.099s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__rosidl_typesupport_introspection_c.h
+[19.100s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__type_support.c
+[19.100s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg
+[19.100s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.100s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail
+[19.100s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__type_support.c
+[19.100s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__rosidl_typesupport_introspection_c.h
+[19.101s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__type_support.c
+[19.101s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__type_support.c
+[19.101s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__rosidl_typesupport_introspection_c.h
+[19.101s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__rosidl_typesupport_introspection_c.h
+[19.101s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_introspection_c.so
+[19.102s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.102s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_c.so
+[19.102s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_c.so" to ""
+[19.102s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces
+[19.102s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv
+[19.103s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail
+[19.103s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__rosidl_typesupport_introspection_cpp.hpp
+[19.103s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__type_support.cpp
+[19.103s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__type_support.cpp
+[19.103s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__type_support.cpp
+[19.103s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_robot_pose__type_support.cpp
+[19.104s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_important_weights__rosidl_typesupport_introspection_cpp.hpp
+[19.104s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/evaluate_driver__rosidl_typesupport_introspection_cpp.hpp
+[19.104s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/srv/detail/get_mates_fitness__rosidl_typesupport_introspection_cpp.hpp
+[19.104s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg
+[19.104s] -- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail
+[19.104s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__rosidl_typesupport_introspection_cpp.hpp
+[19.105s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__type_support.cpp
+[19.105s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__type_support.cpp
+[19.105s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/mates_odom__rosidl_typesupport_introspection_cpp.hpp
+[19.105s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/pesos_struct__rosidl_typesupport_introspection_cpp.hpp
+[19.105s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/include/arlo_interfaces/arlo_interfaces/msg/detail/estado_arlo__type_support.cpp
+[19.106s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.106s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.106s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_cpp.so
+[19.106s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.106s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/pythonpath.sh
+[19.106s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/pythonpath.dsv
+[19.107s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces-0.0.0-py3.10.egg-info
+[19.107s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[19.107s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[19.107s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[19.107s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[19.108s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces
+[19.108s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/_arlo_interfaces_s.ep.rosidl_typesupport_c.c
+[19.108s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv
+[19.108s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_important_weights.py
+[19.108s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_robot_pose_s.c
+[19.109s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_mates_fitness_s.c
+[19.109s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_evaluate_driver_s.c
+[19.109s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_mates_fitness.py
+[19.109s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_important_weights_s.c
+[19.109s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_robot_pose.py
+[19.110s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/__init__.py
+[19.110s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_evaluate_driver.py
+[19.110s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.110s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.110s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/_arlo_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[19.111s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg
+[19.111s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_estado_arlo_s.c
+[19.111s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_pesos_struct_s.c
+[19.111s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_mates_odom_s.c
+[19.111s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_mates_odom.py
+[19.111s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_pesos_struct.py
+[19.112s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_estado_arlo.py
+[19.112s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/__init__.py
+[19.112s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.112s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/_arlo_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.112s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/__init__.py
+[19.112s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/libarlo_interfaces__rosidl_generator_py.so
+[19.171s] Listing '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces'...
+[19.171s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/__init__.py'...
+[19.171s] Listing '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg'...
+[19.171s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/__init__.py'...
+[19.172s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_estado_arlo.py'...
+[19.172s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_mates_odom.py'...
+[19.172s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/msg/_pesos_struct.py'...
+[19.172s] Listing '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv'...
+[19.172s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/__init__.py'...
+[19.172s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_evaluate_driver.py'...
+[19.173s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_important_weights.py'...
+[19.173s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_mates_fitness.py'...
+[19.173s] Compiling '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/srv/_get_robot_pose.py'...
+[19.178s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.178s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.179s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.179s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.180s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.180s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages/arlo_interfaces/arlo_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.180s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_generator_py.so
+[19.181s] -- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib/libarlo_interfaces__rosidl_generator_py.so" to ""
+[19.181s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/msg/PesosStruct.idl
+[19.181s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/msg/EstadoArlo.idl
+[19.182s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/msg/MatesOdom.idl
+[19.182s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/EvaluateDriver.idl
+[19.182s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetImportantWeights.idl
+[19.182s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetMatesFitness.idl
+[19.182s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetRobotPose.idl
+[19.183s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/msg/PesosStruct.msg
+[19.183s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/msg/EstadoArlo.msg
+[19.183s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/msg/MatesOdom.msg
+[19.183s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/EvaluateDriver.srv
+[19.183s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/EvaluateDriver_Request.msg
+[19.184s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/EvaluateDriver_Response.msg
+[19.184s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetImportantWeights.srv
+[19.184s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetImportantWeights_Request.msg
+[19.184s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetImportantWeights_Response.msg
+[19.184s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetMatesFitness.srv
+[19.185s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetMatesFitness_Request.msg
+[19.185s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetMatesFitness_Response.msg
+[19.185s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetRobotPose.srv
+[19.185s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetRobotPose_Request.msg
+[19.185s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/srv/GetRobotPose_Response.msg
+[19.186s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/ament_index/resource_index/package_run_dependencies/arlo_interfaces
+[19.186s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/ament_index/resource_index/parent_prefix_path/arlo_interfaces
+[19.186s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/ament_prefix_path.sh
+[19.187s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/ament_prefix_path.dsv
+[19.187s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/path.sh
+[19.187s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/environment/path.dsv
+[19.187s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/local_setup.bash
+[19.188s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/local_setup.sh
+[19.188s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/local_setup.zsh
+[19.188s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/local_setup.dsv
+[19.188s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.dsv
+[19.189s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/ament_index/resource_index/packages/arlo_interfaces
+[19.189s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_generator_cExport.cmake
+[19.190s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.190s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.190s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.190s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_generator_cppExport.cmake
+[19.191s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.191s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.191s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.192s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.192s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_cExport.cmake
+[19.192s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.193s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.194s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.195s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_cppExport.cmake
+[19.196s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.196s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_generator_pyExport.cmake
+[19.196s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/export_arlo_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[19.197s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/rosidl_cmake-extras.cmake
+[19.197s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.197s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.197s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[19.198s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[19.198s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.198s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.198s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfacesConfig.cmake
+[19.198s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/cmake/arlo_interfacesConfig-version.cmake
+[19.198s] -- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/share/arlo_interfaces/package.xml
+[19.201s] Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces

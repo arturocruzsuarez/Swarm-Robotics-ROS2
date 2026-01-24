@@ -1,0 +1,3 @@
+source;share/cognitive_architecture/environment/ament_prefix_path.sh
+source;share/cognitive_architecture/environment/path.sh
+source;share/cognitive_architecture/environment/pythonpath.sh

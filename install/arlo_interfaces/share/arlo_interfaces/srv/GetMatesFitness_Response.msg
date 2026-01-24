@@ -1,0 +1,3 @@
+
+float64 fitness
+int64     id

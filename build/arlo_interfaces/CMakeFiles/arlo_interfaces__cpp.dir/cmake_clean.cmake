@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/arlo_interfaces__cpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/estado_arlo__builder.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/estado_arlo__struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/estado_arlo__traits.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/estado_arlo__type_support.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/mates_odom__builder.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/mates_odom__struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/mates_odom__traits.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/mates_odom__type_support.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/pesos_struct__builder.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/pesos_struct__struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/pesos_struct__traits.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/detail/pesos_struct__type_support.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/estado_arlo.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/mates_odom.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/msg/pesos_struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/evaluate_driver__builder.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/evaluate_driver__struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/evaluate_driver__traits.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/evaluate_driver__type_support.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_important_weights__builder.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_important_weights__struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_important_weights__traits.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_important_weights__type_support.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_mates_fitness__builder.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_mates_fitness__struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_mates_fitness__traits.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_mates_fitness__type_support.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_robot_pose__builder.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_robot_pose__struct.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_robot_pose__traits.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/detail/get_robot_pose__type_support.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/evaluate_driver.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/get_important_weights.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/get_mates_fitness.hpp"
+  "rosidl_generator_cpp/arlo_interfaces/srv/get_robot_pose.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/arlo_interfaces__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

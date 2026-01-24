@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from arlo_interfaces/msg/PesosStruct.msg
+// generated code does not contain a copyright notice
+
+
+module arlo_interfaces {
+  module msg {
+    struct PesosStruct {
+      sequence<double> pesos;
+    };
+  };
+};

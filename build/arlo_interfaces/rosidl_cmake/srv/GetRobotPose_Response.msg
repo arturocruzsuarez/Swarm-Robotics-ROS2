@@ -1,0 +1,4 @@
+
+# Respuesta con las coordenadas del robot
+float64 x
+float64 y

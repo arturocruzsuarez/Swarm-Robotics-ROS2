@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<robot name="arlo_mejorado_precision_llantas">
+  <!-- Link: link_base -->
+  <link name="link_base">
+    <inertial>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.191043
+        <ixy>0
+        <ixz>0
+        <iyy>0.191043
+        <iyz>0
+        <izz>0.331905
+      </inertia>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 -0 0" xyz="-0.055242 0 0.153337"/>
+      <geometry>
+        <mesh filename="package://individuo_controller/meshes/arlo_base_altura_ok.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 -0 0" xyz="0 0 0.070880"/>
+      <geometry>
+        <cylinder length="0.194" radius="0.288056"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link: link_caster -->
+  <link name="link_caster">
+    <inertial>
+      <mass>0.8</mass>
+      <inertia>
+        <ixx>0.00043452
+        <ixy>0
+        <ixz>0
+        <iyy>0.00043452
+        <iyz>0
+        <izz>0.00043452
+      </inertia>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.167839 0 0.05"/>
+      <geometry>
+        <sphere radius="0.0466108"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.046611"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link: link_caster_back -->
+  <link name="link_caster_back">
+    <inertial>
+      <mass>0.8</mass>
+      <inertia>
+        <ixx>0.00043452
+        <ixy>0
+        <ixz>0
+        <iyy>0.00043452
+        <iyz>0
+        <izz>0.00043452
+      </inertia>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.278 0 0.05"/>
+      <geometry>
+        <sphere radius="0.0466108"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.046611"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link: link_wheel_left -->
+  <link name="link_wheel_left">
+    <inertial>
+      <mass>1</mass>
+      <inertia>
+        <ixx>0.166667
+        <ixy>0
+        <ixz>0
+        <iyy>0.166667
+        <iyz>0
+        <izz>0.166667
+      </inertia>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 -0 0" xyz="-0.053 0.251767 0.0978"/>
+      <geometry>
+        <mesh filename="package://individuo_controller/meshes/arlo_wheel_mejorado.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://individuo_controller/meshes/arlo_wheel_mejorado.dae"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link: link_wheel_right -->
+  <link name="link_wheel_right">
+    <inertial>
+      <mass>1</mass>
+      <inertia>
+        <ixx>0.166667
+        <ixy>0
+        <ixz>0
+        <iyy>0.166667
+        <iyz>0
+        <izz>0.166667
+      </inertia>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 -0 0" xyz="0.053 0.251767 0.0978"/>
+      <geometry>
+        <mesh filename="package://individuo_controller/meshes/arlo_wheel_mejorado.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 -0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://individuo_controller/meshes/arlo_wheel_mejorado.dae"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint: joint_caster -->
+  <joint name="joint_caster" type="fixed">
+    <origin rpy="0 0 0" xyz="0.16 0 0.07"/>
+    <parent link="link_base"/>
+    <child link="link_caster"/>
+  </joint>
+
+  <!-- Joint: joint_caster_back -->
+  <joint name="joint_caster_back" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.16 0 0.07"/>
+    <parent link="link_base"/>
+    <child link="link_caster_back"/>
+  </joint>
+
+  <!-- Joint: joint_wheel_left -->
+  <joint name="joint_wheel_left" type="continuous">
+    <origin rpy="0 0 0" xyz="-0.18 0.251767 0.1"/>
+    <parent link="link_base"/>
+    <child link="link_wheel_left"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="1000" lower="-3.14" upper="3.14" velocity="3.14"/>
+  </joint>
+
+
+  <!-- Joint: joint_wheel_right -->
+  <joint name="joint_wheel_right" type="continuous">
+    <origin rpy="0 0 0" xyz="0.18 0.251767 0.1"/>
+    <parent link="link_base"/>
+    <child link="link_wheel_right"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="1000" lower="-3.14" upper="3.14" velocity="3.14"/>
+  </joint>
+
+
+</robot>

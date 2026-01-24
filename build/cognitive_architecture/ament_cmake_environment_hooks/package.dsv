@@ -1,0 +1,4 @@
+source;share/cognitive_architecture/local_setup.bash
+source;share/cognitive_architecture/local_setup.dsv
+source;share/cognitive_architecture/local_setup.sh
+source;share/cognitive_architecture/local_setup.zsh

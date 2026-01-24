@@ -1,0 +1,6 @@
+
+float64 time
+float64 dist2go
+float64 damage
+float64 energy
+float64 dist2mates

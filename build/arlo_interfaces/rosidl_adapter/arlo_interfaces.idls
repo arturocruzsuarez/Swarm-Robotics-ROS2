@@ -1,0 +1,7 @@
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/rosidl_adapter/arlo_interfaces:msg/PesosStruct.idl
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/rosidl_adapter/arlo_interfaces:msg/EstadoArlo.idl
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/rosidl_adapter/arlo_interfaces:msg/MatesOdom.idl
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/rosidl_adapter/arlo_interfaces:srv/EvaluateDriver.idl
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/rosidl_adapter/arlo_interfaces:srv/GetImportantWeights.idl
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/rosidl_adapter/arlo_interfaces:srv/GetMatesFitness.idl
+/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/rosidl_adapter/arlo_interfaces:srv/GetRobotPose.idl

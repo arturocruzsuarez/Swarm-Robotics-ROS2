@@ -1,0 +1,1462 @@
+[0.000000] (-) TimerEvent: {}
+[0.000412] (-) JobUnselected: {'identifier': 'arlo_interfaces'}
+[0.000789] (cognitive_architecture) JobQueued: {'identifier': 'cognitive_architecture', 'dependencies': OrderedDict([('arlo_interfaces', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces')])}
+[0.001070] (cognitive_architecture) JobStarted: {'identifier': 'cognitive_architecture'}
+[0.015793] (cognitive_architecture) JobProgress: {'identifier': 'cognitive_architecture', 'progress': 'cmake'}
+[0.017085] (cognitive_architecture) JobProgress: {'identifier': 'cognitive_architecture', 'progress': 'build'}
+[0.018358] (cognitive_architecture) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture', '--', '-j4', '-l4'], 'cwd': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'antonio'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/antonio'), ('OLDPWD', '/home/antonio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1217'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antonio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antonio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xps14z:@/tmp/.ICE-unix/1179,unix/xps14z:/tmp/.ICE-unix/1179'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a1285d4_336f_4ca5_9167_70ff3bc85f9e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H678F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.172'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/opt/ros/humble')]), 'shell': False}
+[0.077068] (cognitive_architecture) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_exe\x1b[0m\n'}
+[0.099608] (-) TimerEvent: {}
+[0.104387] (cognitive_architecture) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/controlador_cpp.cpp.o\x1b[0m\n'}
+[0.199768] (-) TimerEvent: {}
+[0.300904] (-) TimerEvent: {}
+[0.401286] (-) TimerEvent: {}
+[0.502413] (-) TimerEvent: {}
+[0.602817] (-) TimerEvent: {}
+[0.703216] (-) TimerEvent: {}
+[0.803624] (-) TimerEvent: {}
+[0.904018] (-) TimerEvent: {}
+[1.004410] (-) TimerEvent: {}
+[1.104810] (-) TimerEvent: {}
+[1.205216] (-) TimerEvent: {}
+[1.305641] (-) TimerEvent: {}
+[1.406069] (-) TimerEvent: {}
+[1.506411] (-) TimerEvent: {}
+[1.606797] (-) TimerEvent: {}
+[1.707186] (-) TimerEvent: {}
+[1.807588] (-) TimerEvent: {}
+[1.907976] (-) TimerEvent: {}
+[2.008383] (-) TimerEvent: {}
+[2.108780] (-) TimerEvent: {}
+[2.209176] (-) TimerEvent: {}
+[2.309608] (-) TimerEvent: {}
+[2.410006] (-) TimerEvent: {}
+[2.510414] (-) TimerEvent: {}
+[2.610814] (-) TimerEvent: {}
+[2.711224] (-) TimerEvent: {}
+[2.811618] (-) TimerEvent: {}
+[2.911989] (-) TimerEvent: {}
+[3.012370] (-) TimerEvent: {}
+[3.112741] (-) TimerEvent: {}
+[3.213084] (-) TimerEvent: {}
+[3.313457] (-) TimerEvent: {}
+[3.413813] (-) TimerEvent: {}
+[3.514177] (-) TimerEvent: {}
+[3.614571] (-) TimerEvent: {}
+[3.714948] (-) TimerEvent: {}
+[3.815308] (-) TimerEvent: {}
+[3.915695] (-) TimerEvent: {}
+[3.932964] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.h:4\x1b[m\x1b[K,\n'}
+[3.933575] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:1\x1b[m\x1b[K,\n'}
+[3.933764] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14\x1b[m\x1b[K,\n'}
+[3.933928] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[3.934111] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[3.934291] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[3.934487] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[3.934666] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[3.934840] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[3.935016] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:23:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.935195] (cognitive_architecture) StderrLine: {'line': b'   23 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int numVariables() const;\n'}
+[3.935378] (cognitive_architecture) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.935561] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:24:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.935738] (cognitive_architecture) StderrLine: {'line': b'   24 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int numRestricciones() const;\n'}
+[3.935912] (cognitive_architecture) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.947402] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14\x1b[m\x1b[K,\n'}
+[3.947630] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[3.947735] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[3.947835] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[3.947933] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[3.948088] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[3.948246] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[3.948609] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Individuo::x2cromosoma()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.948948] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:147:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentero\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.949387] (cognitive_architecture) StderrLine: {'line': b'  147 |     int \x1b[01;35m\x1b[Kentero\x1b[m\x1b[K;  // redondeo del valor d.\n'}
+[3.949739] (cognitive_architecture) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.953303] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:15\x1b[m\x1b[K,\n'}
+[3.953551] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[3.953662] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[3.953764] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[3.953865] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[3.953966] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[3.954065] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[3.954163] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:\x1b[m\x1b[K At global scope:\n'}
+[3.954261] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:18:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.954374] (cognitive_architecture) StderrLine: {'line': b'   18 | \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int ProblemaOptim::numVariables() const {\n'}
+[3.954495] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.954595] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:22:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.954700] (cognitive_architecture) StderrLine: {'line': b'   22 | \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int ProblemaOptim::numRestricciones() const {\n'}
+[3.954799] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.015802] (-) TimerEvent: {}
+[4.074778] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:16\x1b[m\x1b[K,\n'}
+[4.075010] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[4.075115] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[4.075229] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[4.075347] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[4.075463] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.075560] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.075655] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EstadisticasGA::shortReport(std::ostream&, Individuo*, Individuo*, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.075770] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:135:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KcSize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.075870] (cognitive_architecture) StderrLine: {'line': b'  135 |    int \x1b[01;35m\x1b[KcSize\x1b[m\x1b[K = oldpop[0].chromoSize;\n'}
+[4.075965] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.076058] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:136:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KnVars\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.076171] (cognitive_architecture) StderrLine: {'line': b'  136 |    int \x1b[01;35m\x1b[KnVars\x1b[m\x1b[K = oldpop[0].x.size();\n'}
+[4.076266] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.115923] (-) TimerEvent: {}
+[4.216285] (-) TimerEvent: {}
+[4.232019] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:19\x1b[m\x1b[K,\n'}
+[4.232310] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[4.232499] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[4.232658] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.232811] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.232962] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void RobotNaviFun::evaluateFun(const std::vector<double, std::allocator<double> >&, double&, std::vector<double, std::allocator<double> >&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.233117] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:56:86:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krestr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.233271] (cognitive_architecture) StderrLine: {'line': b'   56 | void RobotNaviFun::evaluateFun(vector<double> const &x, double &fun, \x1b[01;35m\x1b[Kvector<double> &restr\x1b[m\x1b[K) const\n'}
+[4.233440] (cognitive_architecture) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.316433] (-) TimerEvent: {}
+[4.416798] (-) TimerEvent: {}
+[4.474057] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[4.474426] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[4.474554] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.474657] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.474756] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcp::cp(int, RobotNaviFun*, ParamsGA, bool*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.474864] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:46:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcp::identificador\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.474982] (cognitive_architecture) StderrLine: {'line': b'   46 |     int \x1b[01;35m\x1b[Kidentificador\x1b[m\x1b[K;\n'}
+[4.475078] (cognitive_architecture) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.475172] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KGeneticoSimple cp::genetico\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.475289] (cognitive_architecture) StderrLine: {'line': b'   45 |     GeneticoSimple \x1b[01;35m\x1b[Kgenetico\x1b[m\x1b[K;\n'}
+[4.475399] (cognitive_architecture) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.475496] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[4.475590] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.475684] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.475779] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.475876] (cognitive_architecture) StderrLine: {'line': b'    8 | \x1b[01;35m\x1b[Kcp\x1b[m\x1b[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :\n'}
+[4.475971] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.476064] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[4.476158] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[4.476252] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.476359] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.476478] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcp::genetico\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.476583] (cognitive_architecture) StderrLine: {'line': b'   45 |     GeneticoSimple \x1b[01;35m\x1b[Kgenetico\x1b[m\x1b[K;\n'}
+[4.476676] (cognitive_architecture) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.476768] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:44:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool* cp::flag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.476871] (cognitive_architecture) StderrLine: {'line': b'   44 |     bool *\x1b[01;35m\x1b[Kflag\x1b[m\x1b[K;\n'}
+[4.476965] (cognitive_architecture) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.477059] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[4.477152] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.477245] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.477343] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.477449] (cognitive_architecture) StderrLine: {'line': b'    8 | \x1b[01;35m\x1b[Kcp\x1b[m\x1b[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :\n'}
+[4.477542] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.516920] (-) TimerEvent: {}
+[4.558267] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:17\x1b[m\x1b[K,\n'}
+[4.558529] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1\x1b[m\x1b[K,\n'}
+[4.558651] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[4.558753] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.558851] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.558958] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NeuroControllerDriver::printOutputs(std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.559058] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:142:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.559166] (cognitive_architecture) StderrLine: {'line': b'  142 | void NeuroControllerDriver::printOutputs(\x1b[01;35m\x1b[Kvector<double> &y\x1b[m\x1b[K)\n'}
+[4.559261] (cognitive_architecture) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.566507] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NeuroControllerDriver::readWeights()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.566785] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:200:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcatching polymorphic type \xe2\x80\x98\x1b[01m\x1b[Kclass std::ios_base::failure\x1b[m\x1b[K\xe2\x80\x99 by value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=\x07-Wcatch-value=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.566978] (cognitive_architecture) StderrLine: {'line': b'  200 |    catch (ifstream::failure \x1b[01;35m\x1b[Ke\x1b[m\x1b[K)\n'}
+[4.567169] (cognitive_architecture) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.572230] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NeuroControllerDriver::dropout(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.572570] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:240:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KnumNeurons\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.572769] (cognitive_architecture) StderrLine: {'line': b'  240 |    int \x1b[01;35m\x1b[KnumNeurons\x1b[m\x1b[K = 0;\n'}
+[4.572927] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.573076] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:238:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.573234] (cognitive_architecture) StderrLine: {'line': b'  238 | void NeuroControllerDriver::dropout(\x1b[01;35m\x1b[Kdouble p\x1b[m\x1b[K)\n'}
+[4.573412] (cognitive_architecture) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[4.617043] (-) TimerEvent: {}
+[4.717413] (-) TimerEvent: {}
+[4.817798] (-) TimerEvent: {}
+[4.897973] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1\x1b[m\x1b[K,\n'}
+[4.898279] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[4.898475] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.898639] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.898818] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCmSec::CmSec(int, char, int, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.898994] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:68:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCmSec::identificador\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.899158] (cognitive_architecture) StderrLine: {'line': b'   68 |    int \x1b[01;35m\x1b[Kidentificador\x1b[m\x1b[K;\n'}
+[4.899309] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.899479] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:63:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint CmSec::task\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.899640] (cognitive_architecture) StderrLine: {'line': b'   63 |    int \x1b[01;35m\x1b[Ktask\x1b[m\x1b[K;\n'}
+[4.899794] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.899947] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[4.900099] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.900262] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.900435] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.900606] (cognitive_architecture) StderrLine: {'line': b'    6 | \x1b[01;35m\x1b[KCmSec\x1b[m\x1b[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :\n'}
+[4.900755] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.900904] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1\x1b[m\x1b[K,\n'}
+[4.901056] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[4.901221] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.901384] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.901539] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:69:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCmSec::redNeuronal\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.901691] (cognitive_architecture) StderrLine: {'line': b'   69 |    NeuroControllerDriver \x1b[01;35m\x1b[KredNeuronal\x1b[m\x1b[K;\n'}
+[4.901838] (cognitive_architecture) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.901981] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:65:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint CmSec::tipo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.902133] (cognitive_architecture) StderrLine: {'line': b'   65 |    int \x1b[01;35m\x1b[Ktipo\x1b[m\x1b[K;\n'}
+[4.902279] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.902441] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[4.902592] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.902737] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.902897] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.903060] (cognitive_architecture) StderrLine: {'line': b'    6 | \x1b[01;35m\x1b[KCmSec\x1b[m\x1b[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :\n'}
+[4.903217] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.917924] (-) TimerEvent: {}
+[4.976833] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[4.977138] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[4.977299] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[4.977489] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CmSec::service_importantWeights(std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.977664] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:137:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.977830] (cognitive_architecture) StderrLine: {'line': b'  137 | bool CmSec::service_importantWeights(\x1b[01;35m\x1b[Kconst std::shared_ptr<arlo_interfaces::srv::GetImportantWeights::Request> request\x1b[m\x1b[K,\n'}
+[4.977989] (cognitive_architecture) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.978244] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CmSec::service_send_fitness(std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.978453] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:145:104:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.978614] (cognitive_architecture) StderrLine: {'line': b'  145 | bool CmSec::service_send_fitness(\x1b[01;35m\x1b[Kconst std::shared_ptr<arlo_interfaces::srv::GetMatesFitness::Request> request\x1b[m\x1b[K,\n'}
+[4.978765] (cognitive_architecture) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.018045] (-) TimerEvent: {}
+[5.118438] (-) TimerEvent: {}
+[5.218829] (-) TimerEvent: {}
+[5.319224] (-) TimerEvent: {}
+[5.419640] (-) TimerEvent: {}
+[5.520045] (-) TimerEvent: {}
+[5.620420] (-) TimerEvent: {}
+[5.720792] (-) TimerEvent: {}
+[5.821175] (-) TimerEvent: {}
+[5.921564] (-) TimerEvent: {}
+[6.021938] (-) TimerEvent: {}
+[6.122317] (-) TimerEvent: {}
+[6.222730] (-) TimerEvent: {}
+[6.323102] (-) TimerEvent: {}
+[6.423459] (-) TimerEvent: {}
+[6.523822] (-) TimerEvent: {}
+[6.624173] (-) TimerEvent: {}
+[6.724545] (-) TimerEvent: {}
+[6.824957] (-) TimerEvent: {}
+[6.925391] (-) TimerEvent: {}
+[7.025813] (-) TimerEvent: {}
+[7.126235] (-) TimerEvent: {}
+[7.226661] (-) TimerEvent: {}
+[7.332837] (-) TimerEvent: {}
+[7.433261] (-) TimerEvent: {}
+[7.533711] (-) TimerEvent: {}
+[7.634122] (-) TimerEvent: {}
+[7.734528] (-) TimerEvent: {}
+[7.834935] (-) TimerEvent: {}
+[7.935417] (-) TimerEvent: {}
+[8.035826] (-) TimerEvent: {}
+[8.136247] (-) TimerEvent: {}
+[8.236673] (-) TimerEvent: {}
+[8.337085] (-) TimerEvent: {}
+[8.437423] (-) TimerEvent: {}
+[8.537826] (-) TimerEvent: {}
+[8.638191] (-) TimerEvent: {}
+[8.738631] (-) TimerEvent: {}
+[8.839024] (-) TimerEvent: {}
+[8.939419] (-) TimerEvent: {}
+[9.039813] (-) TimerEvent: {}
+[9.140210] (-) TimerEvent: {}
+[9.240601] (-) TimerEvent: {}
+[9.340987] (-) TimerEvent: {}
+[9.444824] (-) TimerEvent: {}
+[9.545229] (-) TimerEvent: {}
+[9.645655] (-) TimerEvent: {}
+[9.746039] (-) TimerEvent: {}
+[9.846429] (-) TimerEvent: {}
+[9.953121] (-) TimerEvent: {}
+[10.053524] (-) TimerEvent: {}
+[10.153935] (-) TimerEvent: {}
+[10.254282] (-) TimerEvent: {}
+[10.356806] (-) TimerEvent: {}
+[10.457206] (-) TimerEvent: {}
+[10.557607] (-) TimerEvent: {}
+[10.657988] (-) TimerEvent: {}
+[10.758405] (-) TimerEvent: {}
+[10.858764] (-) TimerEvent: {}
+[10.959144] (-) TimerEvent: {}
+[11.059547] (-) TimerEvent: {}
+[11.159951] (-) TimerEvent: {}
+[11.260377] (-) TimerEvent: {}
+[11.360791] (-) TimerEvent: {}
+[11.461145] (-) TimerEvent: {}
+[11.561524] (-) TimerEvent: {}
+[11.664816] (-) TimerEvent: {}
+[11.765252] (-) TimerEvent: {}
+[11.865706] (-) TimerEvent: {}
+[11.966066] (-) TimerEvent: {}
+[12.066418] (-) TimerEvent: {}
+[12.173122] (-) TimerEvent: {}
+[12.273631] (-) TimerEvent: {}
+[12.374085] (-) TimerEvent: {}
+[12.474438] (-) TimerEvent: {}
+[12.581118] (-) TimerEvent: {}
+[12.681525] (-) TimerEvent: {}
+[12.781926] (-) TimerEvent: {}
+[12.882323] (-) TimerEvent: {}
+[12.982749] (-) TimerEvent: {}
+[13.083112] (-) TimerEvent: {}
+[13.183481] (-) TimerEvent: {}
+[13.283920] (-) TimerEvent: {}
+[13.384316] (-) TimerEvent: {}
+[13.484727] (-) TimerEvent: {}
+[13.585118] (-) TimerEvent: {}
+[13.685783] (-) TimerEvent: {}
+[13.786183] (-) TimerEvent: {}
+[13.886583] (-) TimerEvent: {}
+[13.986978] (-) TimerEvent: {}
+[14.087373] (-) TimerEvent: {}
+[14.187774] (-) TimerEvent: {}
+[14.288178] (-) TimerEvent: {}
+[14.388581] (-) TimerEvent: {}
+[14.488963] (-) TimerEvent: {}
+[14.590855] (-) TimerEvent: {}
+[14.691273] (-) TimerEvent: {}
+[14.791672] (-) TimerEvent: {}
+[14.892079] (-) TimerEvent: {}
+[14.992431] (-) TimerEvent: {}
+[15.092815] (-) TimerEvent: {}
+[15.193165] (-) TimerEvent: {}
+[15.293525] (-) TimerEvent: {}
+[15.393906] (-) TimerEvent: {}
+[15.494299] (-) TimerEvent: {}
+[15.594684] (-) TimerEvent: {}
+[15.695078] (-) TimerEvent: {}
+[15.795473] (-) TimerEvent: {}
+[15.895888] (-) TimerEvent: {}
+[15.996241] (-) TimerEvent: {}
+[16.096678] (-) TimerEvent: {}
+[16.197065] (-) TimerEvent: {}
+[16.297447] (-) TimerEvent: {}
+[16.400824] (-) TimerEvent: {}
+[16.501224] (-) TimerEvent: {}
+[16.601615] (-) TimerEvent: {}
+[16.702017] (-) TimerEvent: {}
+[16.802497] (-) TimerEvent: {}
+[16.910819] (-) TimerEvent: {}
+[17.011836] (-) TimerEvent: {}
+[17.112305] (-) TimerEvent: {}
+[17.212687] (-) TimerEvent: {}
+[17.313063] (-) TimerEvent: {}
+[17.413435] (-) TimerEvent: {}
+[17.513844] (-) TimerEvent: {}
+[17.614279] (-) TimerEvent: {}
+[17.720845] (-) TimerEvent: {}
+[17.821271] (-) TimerEvent: {}
+[17.921639] (-) TimerEvent: {}
+[18.021996] (-) TimerEvent: {}
+[18.122378] (-) TimerEvent: {}
+[18.222731] (-) TimerEvent: {}
+[18.323094] (-) TimerEvent: {}
+[18.423488] (-) TimerEvent: {}
+[18.523887] (-) TimerEvent: {}
+[18.624288] (-) TimerEvent: {}
+[18.724686] (-) TimerEvent: {}
+[18.830845] (-) TimerEvent: {}
+[18.931379] (-) TimerEvent: {}
+[19.031776] (-) TimerEvent: {}
+[19.132185] (-) TimerEvent: {}
+[19.232649] (-) TimerEvent: {}
+[19.333032] (-) TimerEvent: {}
+[19.433421] (-) TimerEvent: {}
+[19.533828] (-) TimerEvent: {}
+[19.634401] (-) TimerEvent: {}
+[19.734807] (-) TimerEvent: {}
+[19.835217] (-) TimerEvent: {}
+[19.935675] (-) TimerEvent: {}
+[20.036049] (-) TimerEvent: {}
+[20.136415] (-) TimerEvent: {}
+[20.236765] (-) TimerEvent: {}
+[20.337166] (-) TimerEvent: {}
+[20.437566] (-) TimerEvent: {}
+[20.537964] (-) TimerEvent: {}
+[20.638382] (-) TimerEvent: {}
+[20.738753] (-) TimerEvent: {}
+[20.839112] (-) TimerEvent: {}
+[20.939489] (-) TimerEvent: {}
+[21.039858] (-) TimerEvent: {}
+[21.140221] (-) TimerEvent: {}
+[21.240620] (-) TimerEvent: {}
+[21.341004] (-) TimerEvent: {}
+[21.441427] (-) TimerEvent: {}
+[21.541807] (-) TimerEvent: {}
+[21.642260] (-) TimerEvent: {}
+[21.742666] (-) TimerEvent: {}
+[21.846839] (-) TimerEvent: {}
+[21.947255] (-) TimerEvent: {}
+[22.047673] (-) TimerEvent: {}
+[22.148078] (-) TimerEvent: {}
+[22.248409] (-) TimerEvent: {}
+[22.355076] (-) TimerEvent: {}
+[22.458821] (-) TimerEvent: {}
+[22.559240] (-) TimerEvent: {}
+[22.659699] (-) TimerEvent: {}
+[22.734250] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:8\x1b[m\x1b[K,\n'}
+[22.734590] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[22.734775] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[22.734966] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KsrvMultipleGoals::srvMultipleGoals(double, double, Miscelaneo*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.735269] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:3:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*this.srvMultipleGoals::<anonymous>.srvEvaluateDriver::misc\x1b[m\x1b[K\xe2\x80\x99 is used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized\x07-Wuninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.735502] (cognitive_architecture) StderrLine: {'line': b'    3 | srvMultipleGoals::srvMultipleGoals(double x, double y, Miscelaneo *misc_): srvEvaluateDriver(x,y,misc\x1b[01;35m\x1b[K)\x1b[m\x1b[K //Node("servidor_simulacion_Multiple_Goals")\n'}
+[22.735681] (cognitive_architecture) StderrLine: {'line': b'      |                                                                                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[22.735850] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:9\x1b[m\x1b[K,\n'}
+[22.736021] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[22.736191] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_cpp.cpp:9\x1b[m\x1b[K:\n'}
+[22.736368] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KsrvTeamMovement::srvTeamMovement(double, double, Miscelaneo*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.736568] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:3:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*this.srvTeamMovement::<anonymous>.srvEvaluateDriver::misc\x1b[m\x1b[K\xe2\x80\x99 is used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized\x07-Wuninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.736753] (cognitive_architecture) StderrLine: {'line': b'    3 | srvTeamMovement::srvTeamMovement(double x, double y, Miscelaneo * misc_): srvEvaluateDriver(x,y,misc\x1b[01;35m\x1b[K)\x1b[m\x1b[K // hay que agregar el id del robot que le corresponda\n'}
+[22.736927] (cognitive_architecture) StderrLine: {'line': b'      |                                                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[22.759866] (-) TimerEvent: {}
+[22.860281] (-) TimerEvent: {}
+[22.960687] (-) TimerEvent: {}
+[23.061071] (-) TimerEvent: {}
+[23.161490] (-) TimerEvent: {}
+[23.261863] (-) TimerEvent: {}
+[23.362234] (-) TimerEvent: {}
+[23.468806] (-) TimerEvent: {}
+[23.569353] (-) TimerEvent: {}
+[23.669791] (-) TimerEvent: {}
+[23.770216] (-) TimerEvent: {}
+[23.870637] (-) TimerEvent: {}
+[23.971044] (-) TimerEvent: {}
+[24.071436] (-) TimerEvent: {}
+[24.171778] (-) TimerEvent: {}
+[24.272203] (-) TimerEvent: {}
+[24.372619] (-) TimerEvent: {}
+[24.478834] (-) TimerEvent: {}
+[24.579240] (-) TimerEvent: {}
+[24.679628] (-) TimerEvent: {}
+[24.780023] (-) TimerEvent: {}
+[24.880423] (-) TimerEvent: {}
+[24.980809] (-) TimerEvent: {}
+[25.081202] (-) TimerEvent: {}
+[25.181604] (-) TimerEvent: {}
+[25.281996] (-) TimerEvent: {}
+[25.382397] (-) TimerEvent: {}
+[25.482787] (-) TimerEvent: {}
+[25.589447] (-) TimerEvent: {}
+[25.689855] (-) TimerEvent: {}
+[25.790247] (-) TimerEvent: {}
+[25.890629] (-) TimerEvent: {}
+[25.990967] (-) TimerEvent: {}
+[26.091315] (-) TimerEvent: {}
+[26.191709] (-) TimerEvent: {}
+[26.292052] (-) TimerEvent: {}
+[26.392428] (-) TimerEvent: {}
+[26.499152] (-) TimerEvent: {}
+[26.599578] (-) TimerEvent: {}
+[26.700056] (-) TimerEvent: {}
+[26.800493] (-) TimerEvent: {}
+[26.900970] (-) TimerEvent: {}
+[27.001716] (-) TimerEvent: {}
+[27.102068] (-) TimerEvent: {}
+[27.202424] (-) TimerEvent: {}
+[27.309109] (-) TimerEvent: {}
+[27.409427] (-) TimerEvent: {}
+[27.509820] (-) TimerEvent: {}
+[27.610250] (-) TimerEvent: {}
+[27.710594] (-) TimerEvent: {}
+[27.810931] (-) TimerEvent: {}
+[27.911274] (-) TimerEvent: {}
+[28.011646] (-) TimerEvent: {}
+[28.112002] (-) TimerEvent: {}
+[28.212400] (-) TimerEvent: {}
+[28.312777] (-) TimerEvent: {}
+[28.413140] (-) TimerEvent: {}
+[28.513569] (-) TimerEvent: {}
+[28.613916] (-) TimerEvent: {}
+[28.714304] (-) TimerEvent: {}
+[28.820811] (-) TimerEvent: {}
+[28.921178] (-) TimerEvent: {}
+[29.021598] (-) TimerEvent: {}
+[29.121992] (-) TimerEvent: {}
+[29.222345] (-) TimerEvent: {}
+[29.328895] (-) TimerEvent: {}
+[29.429229] (-) TimerEvent: {}
+[29.529636] (-) TimerEvent: {}
+[29.630004] (-) TimerEvent: {}
+[29.730398] (-) TimerEvent: {}
+[29.837031] (-) TimerEvent: {}
+[29.937411] (-) TimerEvent: {}
+[30.037726] (-) TimerEvent: {}
+[30.138046] (-) TimerEvent: {}
+[30.238394] (-) TimerEvent: {}
+[30.338735] (-) TimerEvent: {}
+[30.444812] (-) TimerEvent: {}
+[30.545222] (-) TimerEvent: {}
+[30.645595] (-) TimerEvent: {}
+[30.745944] (-) TimerEvent: {}
+[30.846289] (-) TimerEvent: {}
+[30.948853] (-) TimerEvent: {}
+[31.049267] (-) TimerEvent: {}
+[31.149638] (-) TimerEvent: {}
+[31.249966] (-) TimerEvent: {}
+[31.350310] (-) TimerEvent: {}
+[31.450669] (-) TimerEvent: {}
+[31.551066] (-) TimerEvent: {}
+[31.651464] (-) TimerEvent: {}
+[31.751855] (-) TimerEvent: {}
+[31.852247] (-) TimerEvent: {}
+[31.952647] (-) TimerEvent: {}
+[32.052986] (-) TimerEvent: {}
+[32.153339] (-) TimerEvent: {}
+[32.253680] (-) TimerEvent: {}
+[32.354040] (-) TimerEvent: {}
+[32.454463] (-) TimerEvent: {}
+[32.554811] (-) TimerEvent: {}
+[32.655202] (-) TimerEvent: {}
+[32.755562] (-) TimerEvent: {}
+[32.855904] (-) TimerEvent: {}
+[32.956248] (-) TimerEvent: {}
+[33.056596] (-) TimerEvent: {}
+[33.156939] (-) TimerEvent: {}
+[33.257286] (-) TimerEvent: {}
+[33.358421] (-) TimerEvent: {}
+[33.465165] (-) TimerEvent: {}
+[33.565764] (-) TimerEvent: {}
+[33.668839] (-) TimerEvent: {}
+[33.769211] (-) TimerEvent: {}
+[33.869605] (-) TimerEvent: {}
+[33.969995] (-) TimerEvent: {}
+[34.070391] (-) TimerEvent: {}
+[34.177116] (-) TimerEvent: {}
+[34.277462] (-) TimerEvent: {}
+[34.377804] (-) TimerEvent: {}
+[34.478143] (-) TimerEvent: {}
+[34.578484] (-) TimerEvent: {}
+[34.678865] (-) TimerEvent: {}
+[34.779243] (-) TimerEvent: {}
+[34.879622] (-) TimerEvent: {}
+[34.979998] (-) TimerEvent: {}
+[35.080377] (-) TimerEvent: {}
+[35.180748] (-) TimerEvent: {}
+[35.281122] (-) TimerEvent: {}
+[35.381509] (-) TimerEvent: {}
+[35.481891] (-) TimerEvent: {}
+[35.582233] (-) TimerEvent: {}
+[35.682592] (-) TimerEvent: {}
+[35.782934] (-) TimerEvent: {}
+[35.883277] (-) TimerEvent: {}
+[35.983668] (-) TimerEvent: {}
+[36.084038] (-) TimerEvent: {}
+[36.184419] (-) TimerEvent: {}
+[36.284802] (-) TimerEvent: {}
+[36.385176] (-) TimerEvent: {}
+[36.485566] (-) TimerEvent: {}
+[36.585946] (-) TimerEvent: {}
+[36.686315] (-) TimerEvent: {}
+[36.786743] (-) TimerEvent: {}
+[36.892814] (-) TimerEvent: {}
+[36.993226] (-) TimerEvent: {}
+[37.093616] (-) TimerEvent: {}
+[37.194004] (-) TimerEvent: {}
+[37.294389] (-) TimerEvent: {}
+[37.401046] (-) TimerEvent: {}
+[37.501427] (-) TimerEvent: {}
+[37.601868] (-) TimerEvent: {}
+[37.702386] (-) TimerEvent: {}
+[37.802792] (-) TimerEvent: {}
+[37.903189] (-) TimerEvent: {}
+[38.003546] (-) TimerEvent: {}
+[38.103895] (-) TimerEvent: {}
+[38.204278] (-) TimerEvent: {}
+[38.304616] (-) TimerEvent: {}
+[38.404960] (-) TimerEvent: {}
+[38.505367] (-) TimerEvent: {}
+[38.605704] (-) TimerEvent: {}
+[38.708808] (-) TimerEvent: {}
+[38.809183] (-) TimerEvent: {}
+[38.909552] (-) TimerEvent: {}
+[39.009900] (-) TimerEvent: {}
+[39.110240] (-) TimerEvent: {}
+[39.212814] (-) TimerEvent: {}
+[39.313226] (-) TimerEvent: {}
+[39.413621] (-) TimerEvent: {}
+[39.518835] (-) TimerEvent: {}
+[39.619227] (-) TimerEvent: {}
+[39.719590] (-) TimerEvent: {}
+[39.819925] (-) TimerEvent: {}
+[39.920269] (-) TimerEvent: {}
+[40.020664] (-) TimerEvent: {}
+[40.121046] (-) TimerEvent: {}
+[40.221450] (-) TimerEvent: {}
+[40.321852] (-) TimerEvent: {}
+[40.422243] (-) TimerEvent: {}
+[40.522598] (-) TimerEvent: {}
+[40.622970] (-) TimerEvent: {}
+[40.723358] (-) TimerEvent: {}
+[40.823735] (-) TimerEvent: {}
+[40.924122] (-) TimerEvent: {}
+[41.024523] (-) TimerEvent: {}
+[41.124907] (-) TimerEvent: {}
+[41.225290] (-) TimerEvent: {}
+[41.325683] (-) TimerEvent: {}
+[41.426054] (-) TimerEvent: {}
+[41.526439] (-) TimerEvent: {}
+[41.628813] (-) TimerEvent: {}
+[41.729225] (-) TimerEvent: {}
+[41.829619] (-) TimerEvent: {}
+[41.930018] (-) TimerEvent: {}
+[42.030661] (-) TimerEvent: {}
+[42.131745] (-) TimerEvent: {}
+[42.232570] (-) TimerEvent: {}
+[42.332960] (-) TimerEvent: {}
+[42.438794] (-) TimerEvent: {}
+[42.539165] (-) TimerEvent: {}
+[42.639537] (-) TimerEvent: {}
+[42.739932] (-) TimerEvent: {}
+[42.840319] (-) TimerEvent: {}
+[42.940721] (-) TimerEvent: {}
+[43.041113] (-) TimerEvent: {}
+[43.141511] (-) TimerEvent: {}
+[43.241912] (-) TimerEvent: {}
+[43.342306] (-) TimerEvent: {}
+[43.442717] (-) TimerEvent: {}
+[43.543136] (-) TimerEvent: {}
+[43.648852] (-) TimerEvent: {}
+[43.749286] (-) TimerEvent: {}
+[43.849738] (-) TimerEvent: {}
+[43.950161] (-) TimerEvent: {}
+[44.050581] (-) TimerEvent: {}
+[44.151009] (-) TimerEvent: {}
+[44.251431] (-) TimerEvent: {}
+[44.351861] (-) TimerEvent: {}
+[44.452264] (-) TimerEvent: {}
+[44.552678] (-) TimerEvent: {}
+[44.653032] (-) TimerEvent: {}
+[44.753418] (-) TimerEvent: {}
+[44.853934] (-) TimerEvent: {}
+[44.954671] (-) TimerEvent: {}
+[45.055073] (-) TimerEvent: {}
+[45.155492] (-) TimerEvent: {}
+[45.255894] (-) TimerEvent: {}
+[45.356309] (-) TimerEvent: {}
+[45.394641] (cognitive_architecture) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable cpp_exe\x1b[0m\n'}
+[45.456438] (-) TimerEvent: {}
+[45.556886] (-) TimerEvent: {}
+[45.657325] (-) TimerEvent: {}
+[45.757811] (-) TimerEvent: {}
+[45.858240] (-) TimerEvent: {}
+[45.958691] (-) TimerEvent: {}
+[46.059137] (-) TimerEvent: {}
+[46.159614] (-) TimerEvent: {}
+[46.260058] (-) TimerEvent: {}
+[46.360491] (-) TimerEvent: {}
+[46.460951] (-) TimerEvent: {}
+[46.561406] (-) TimerEvent: {}
+[46.661809] (-) TimerEvent: {}
+[46.762229] (-) TimerEvent: {}
+[46.862631] (-) TimerEvent: {}
+[46.968822] (-) TimerEvent: {}
+[47.069260] (-) TimerEvent: {}
+[47.169668] (-) TimerEvent: {}
+[47.270092] (-) TimerEvent: {}
+[47.370488] (-) TimerEvent: {}
+[47.470891] (-) TimerEvent: {}
+[47.571315] (-) TimerEvent: {}
+[47.671724] (-) TimerEvent: {}
+[47.772166] (-) TimerEvent: {}
+[47.872570] (-) TimerEvent: {}
+[47.973014] (-) TimerEvent: {}
+[48.073412] (-) TimerEvent: {}
+[48.173837] (-) TimerEvent: {}
+[48.274277] (-) TimerEvent: {}
+[48.331688] (cognitive_architecture) StdoutLine: {'line': b'[ 50%] Built target cpp_exe\n'}
+[48.372149] (cognitive_architecture) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_cognitive_architecture\n'}
+[48.374380] (-) TimerEvent: {}
+[48.411511] (cognitive_architecture) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/meta_exe.dir/src/controlador_meta.cpp.o\x1b[0m\n'}
+[48.474516] (-) TimerEvent: {}
+[48.575736] (-) TimerEvent: {}
+[48.676143] (-) TimerEvent: {}
+[48.776552] (-) TimerEvent: {}
+[48.876962] (-) TimerEvent: {}
+[48.977375] (-) TimerEvent: {}
+[49.077847] (-) TimerEvent: {}
+[49.178601] (-) TimerEvent: {}
+[49.279040] (-) TimerEvent: {}
+[49.379497] (-) TimerEvent: {}
+[49.479873] (-) TimerEvent: {}
+[49.580237] (-) TimerEvent: {}
+[49.680621] (-) TimerEvent: {}
+[49.780992] (-) TimerEvent: {}
+[49.881382] (-) TimerEvent: {}
+[49.981745] (-) TimerEvent: {}
+[50.082122] (-) TimerEvent: {}
+[50.182514] (-) TimerEvent: {}
+[50.288836] (-) TimerEvent: {}
+[50.389248] (-) TimerEvent: {}
+[50.489649] (-) TimerEvent: {}
+[50.590043] (-) TimerEvent: {}
+[50.690437] (-) TimerEvent: {}
+[50.790826] (-) TimerEvent: {}
+[50.891232] (-) TimerEvent: {}
+[50.991655] (-) TimerEvent: {}
+[51.092070] (-) TimerEvent: {}
+[51.192428] (-) TimerEvent: {}
+[51.292787] (-) TimerEvent: {}
+[51.393219] (-) TimerEvent: {}
+[51.493624] (-) TimerEvent: {}
+[51.594042] (-) TimerEvent: {}
+[51.694499] (-) TimerEvent: {}
+[51.795231] (-) TimerEvent: {}
+[51.895633] (-) TimerEvent: {}
+[51.996040] (-) TimerEvent: {}
+[52.096444] (-) TimerEvent: {}
+[52.196856] (-) TimerEvent: {}
+[52.297258] (-) TimerEvent: {}
+[52.397691] (-) TimerEvent: {}
+[52.498078] (-) TimerEvent: {}
+[52.598484] (-) TimerEvent: {}
+[52.657154] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.h:4\x1b[m\x1b[K,\n'}
+[52.657492] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:1\x1b[m\x1b[K,\n'}
+[52.657686] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14\x1b[m\x1b[K,\n'}
+[52.657862] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[52.658034] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[52.658218] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[52.658433] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[52.658620] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[52.658803] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[52.658984] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:23:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.659183] (cognitive_architecture) StderrLine: {'line': b'   23 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int numVariables() const;\n'}
+[52.659369] (cognitive_architecture) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[52.659556] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.h:24:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.659753] (cognitive_architecture) StderrLine: {'line': b'   24 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int numRestricciones() const;\n'}
+[52.659928] (cognitive_architecture) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[52.677427] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:14\x1b[m\x1b[K,\n'}
+[52.677728] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[52.677889] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[52.678043] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[52.678196] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[52.678360] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[52.678525] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[52.678677] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Individuo::x2cromosoma()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[52.678860] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Individuo.hpp:147:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentero\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.679019] (cognitive_architecture) StderrLine: {'line': b'  147 |     int \x1b[01;35m\x1b[Kentero\x1b[m\x1b[K;  // redondeo del valor d.\n'}
+[52.679171] (cognitive_architecture) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[52.680252] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:15\x1b[m\x1b[K,\n'}
+[52.680466] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[52.680625] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[52.680778] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[52.680931] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[52.681080] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[52.681236] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[52.681417] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:\x1b[m\x1b[K At global scope:\n'}
+[52.681572] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:18:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.681746] (cognitive_architecture) StderrLine: {'line': b'   18 | \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int ProblemaOptim::numVariables() const {\n'}
+[52.681895] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[52.682044] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/ProblemaOptim.hpp:22:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.682228] (cognitive_architecture) StderrLine: {'line': b'   22 | \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int ProblemaOptim::numRestricciones() const {\n'}
+[52.682392] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[52.698611] (-) TimerEvent: {}
+[52.799032] (-) TimerEvent: {}
+[52.812247] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.h:16\x1b[m\x1b[K,\n'}
+[52.812489] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/GeneticoSimple.hpp:7\x1b[m\x1b[K,\n'}
+[52.812594] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:17\x1b[m\x1b[K,\n'}
+[52.812697] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[52.812794] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[52.812908] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[52.813006] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[52.813102] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EstadisticasGA::shortReport(std::ostream&, Individuo*, Individuo*, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[52.813200] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:135:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KcSize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.813300] (cognitive_architecture) StderrLine: {'line': b'  135 |    int \x1b[01;35m\x1b[KcSize\x1b[m\x1b[K = oldpop[0].chromoSize;\n'}
+[52.813428] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[52.813527] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/Estadisticas.hpp:136:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KnVars\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.813627] (cognitive_architecture) StderrLine: {'line': b'  136 |    int \x1b[01;35m\x1b[KnVars\x1b[m\x1b[K = oldpop[0].x.size();\n'}
+[52.813721] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[52.899181] (-) TimerEvent: {}
+[52.999580] (-) TimerEvent: {}
+[53.005834] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:19\x1b[m\x1b[K,\n'}
+[53.006126] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[53.006287] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[53.006465] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.006622] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.006775] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void RobotNaviFun::evaluateFun(const std::vector<double, std::allocator<double> >&, double&, std::vector<double, std::allocator<double> >&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.006952] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Algoritmo_Evolutivo/RobotNaviFun.hpp:56:86:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krestr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.007129] (cognitive_architecture) StderrLine: {'line': b'   56 | void RobotNaviFun::evaluateFun(vector<double> const &x, double &fun, \x1b[01;35m\x1b[Kvector<double> &restr\x1b[m\x1b[K) const\n'}
+[53.007279] (cognitive_architecture) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[53.099704] (-) TimerEvent: {}
+[53.200102] (-) TimerEvent: {}
+[53.295533] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[53.295827] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[53.295987] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.296139] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.296312] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcp::cp(int, RobotNaviFun*, ParamsGA, bool*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.296488] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:46:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcp::identificador\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.296661] (cognitive_architecture) StderrLine: {'line': b'   46 |     int \x1b[01;35m\x1b[Kidentificador\x1b[m\x1b[K;\n'}
+[53.296812] (cognitive_architecture) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[53.296962] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KGeneticoSimple cp::genetico\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.297115] (cognitive_architecture) StderrLine: {'line': b'   45 |     GeneticoSimple \x1b[01;35m\x1b[Kgenetico\x1b[m\x1b[K;\n'}
+[53.297265] (cognitive_architecture) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[53.297437] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[53.297587] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.297734] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.297883] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.298040] (cognitive_architecture) StderrLine: {'line': b'    8 | \x1b[01;35m\x1b[Kcp\x1b[m\x1b[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :\n'}
+[53.298186] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[53.298338] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:1\x1b[m\x1b[K,\n'}
+[53.298501] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[53.298650] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.298797] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.298960] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:45:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcp::genetico\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.299148] (cognitive_architecture) StderrLine: {'line': b'   45 |     GeneticoSimple \x1b[01;35m\x1b[Kgenetico\x1b[m\x1b[K;\n'}
+[53.299294] (cognitive_architecture) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[53.299463] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.h:44:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool* cp::flag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.299619] (cognitive_architecture) StderrLine: {'line': b'   44 |     bool *\x1b[01;35m\x1b[Kflag\x1b[m\x1b[K;\n'}
+[53.299765] (cognitive_architecture) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[53.299912] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:5\x1b[m\x1b[K,\n'}
+[53.300069] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.300212] (-) TimerEvent: {}
+[53.300396] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.300571] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_premotora.hpp:8:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.300725] (cognitive_architecture) StderrLine: {'line': b'    8 | \x1b[01;35m\x1b[Kcp\x1b[m\x1b[K::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) :\n'}
+[53.300878] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[53.390148] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:17\x1b[m\x1b[K,\n'}
+[53.390457] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1\x1b[m\x1b[K,\n'}
+[53.390626] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[53.390781] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.390933] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.391085] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NeuroControllerDriver::printOutputs(std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.391260] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:142:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.391438] (cognitive_architecture) StderrLine: {'line': b'  142 | void NeuroControllerDriver::printOutputs(\x1b[01;35m\x1b[Kvector<double> &y\x1b[m\x1b[K)\n'}
+[53.391590] (cognitive_architecture) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[53.396281] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NeuroControllerDriver::readWeights()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.396553] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:200:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcatching polymorphic type \xe2\x80\x98\x1b[01m\x1b[Kclass std::ios_base::failure\x1b[m\x1b[K\xe2\x80\x99 by value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=\x07-Wcatch-value=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.396744] (cognitive_architecture) StderrLine: {'line': b'  200 |    catch (ifstream::failure \x1b[01;35m\x1b[Ke\x1b[m\x1b[K)\n'}
+[53.396899] (cognitive_architecture) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[53.400324] (-) TimerEvent: {}
+[53.400715] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NeuroControllerDriver::dropout(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.400963] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:240:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KnumNeurons\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.401131] (cognitive_architecture) StderrLine: {'line': b'  240 |    int \x1b[01;35m\x1b[KnumNeurons\x1b[m\x1b[K = 0;\n'}
+[53.401284] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[53.401468] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/Red_Neuronal/NeuroControllerDriver.hpp:238:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.401633] (cognitive_architecture) StderrLine: {'line': b'  238 | void NeuroControllerDriver::dropout(\x1b[01;35m\x1b[Kdouble p\x1b[m\x1b[K)\n'}
+[53.401781] (cognitive_architecture) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[53.500803] (-) TimerEvent: {}
+[53.601210] (-) TimerEvent: {}
+[53.701618] (-) TimerEvent: {}
+[53.802010] (-) TimerEvent: {}
+[53.840911] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1\x1b[m\x1b[K,\n'}
+[53.841453] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[53.841655] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.841838] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.842017] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCmSec::CmSec(int, char, int, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.842198] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:68:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCmSec::identificador\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.842392] (cognitive_architecture) StderrLine: {'line': b'   68 |    int \x1b[01;35m\x1b[Kidentificador\x1b[m\x1b[K;\n'}
+[53.842578] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[53.842752] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:63:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint CmSec::task\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.842929] (cognitive_architecture) StderrLine: {'line': b'   63 |    int \x1b[01;35m\x1b[Ktask\x1b[m\x1b[K;\n'}
+[53.843101] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[53.843276] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[53.843529] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.843699] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.843853] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.844013] (cognitive_architecture) StderrLine: {'line': b'    6 | \x1b[01;35m\x1b[KCmSec\x1b[m\x1b[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :\n'}
+[53.844195] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[53.844353] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:1\x1b[m\x1b[K,\n'}
+[53.844518] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[53.844681] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.844832] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.844990] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:69:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCmSec::redNeuronal\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.845147] (cognitive_architecture) StderrLine: {'line': b'   69 |    NeuroControllerDriver \x1b[01;35m\x1b[KredNeuronal\x1b[m\x1b[K;\n'}
+[53.845294] (cognitive_architecture) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[53.845467] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.h:65:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint CmSec::tipo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.845623] (cognitive_architecture) StderrLine: {'line': b'   65 |    int \x1b[01;35m\x1b[Ktipo\x1b[m\x1b[K;\n'}
+[53.845770] (cognitive_architecture) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[53.845917] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[53.846063] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.846211] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.846365] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:6:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.846529] (cognitive_architecture) StderrLine: {'line': b'    6 | \x1b[01;35m\x1b[KCmSec\x1b[m\x1b[K::CmSec(int i, char tipo, int task, double dropOut, double xGoal, double yGoal) :\n'}
+[53.846678] (cognitive_architecture) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[53.902144] (-) TimerEvent: {}
+[53.949016] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:6\x1b[m\x1b[K,\n'}
+[53.949263] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[53.949393] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[53.949549] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CmSec::service_importantWeights(std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetImportantWeights_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.949700] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:137:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.949838] (cognitive_architecture) StderrLine: {'line': b'  137 | bool CmSec::service_importantWeights(\x1b[01;35m\x1b[Kconst std::shared_ptr<arlo_interfaces::srv::GetImportantWeights::Request> request\x1b[m\x1b[K,\n'}
+[53.949971] (cognitive_architecture) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[53.950150] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CmSec::service_send_fitness(std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Request_<std::allocator<void> > >, std::shared_ptr<arlo_interfaces::srv::GetMatesFitness_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[53.950263] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/modulos_cerebrales/corteza_motora_secundaria.hpp:145:104:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[53.950402] (cognitive_architecture) StderrLine: {'line': b'  145 | bool CmSec::service_send_fitness(\x1b[01;35m\x1b[Kconst std::shared_ptr<arlo_interfaces::srv::GetMatesFitness::Request> request\x1b[m\x1b[K,\n'}
+[53.950507] (cognitive_architecture) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[54.004950] (-) TimerEvent: {}
+[54.105410] (-) TimerEvent: {}
+[54.205768] (-) TimerEvent: {}
+[54.306124] (-) TimerEvent: {}
+[54.406498] (-) TimerEvent: {}
+[54.513206] (-) TimerEvent: {}
+[54.616822] (-) TimerEvent: {}
+[54.717201] (-) TimerEvent: {}
+[54.817584] (-) TimerEvent: {}
+[54.917982] (-) TimerEvent: {}
+[55.018449] (-) TimerEvent: {}
+[55.118810] (-) TimerEvent: {}
+[55.219192] (-) TimerEvent: {}
+[55.319601] (-) TimerEvent: {}
+[55.419964] (-) TimerEvent: {}
+[55.520383] (-) TimerEvent: {}
+[55.620772] (-) TimerEvent: {}
+[55.721146] (-) TimerEvent: {}
+[55.821575] (-) TimerEvent: {}
+[55.921940] (-) TimerEvent: {}
+[56.022314] (-) TimerEvent: {}
+[56.122794] (-) TimerEvent: {}
+[56.223174] (-) TimerEvent: {}
+[56.323578] (-) TimerEvent: {}
+[56.423993] (-) TimerEvent: {}
+[56.524359] (-) TimerEvent: {}
+[56.624718] (-) TimerEvent: {}
+[56.725078] (-) TimerEvent: {}
+[56.825455] (-) TimerEvent: {}
+[56.925822] (-) TimerEvent: {}
+[57.026197] (-) TimerEvent: {}
+[57.126647] (-) TimerEvent: {}
+[57.227068] (-) TimerEvent: {}
+[57.327427] (-) TimerEvent: {}
+[57.427786] (-) TimerEvent: {}
+[57.528155] (-) TimerEvent: {}
+[57.628524] (-) TimerEvent: {}
+[57.728888] (-) TimerEvent: {}
+[57.829250] (-) TimerEvent: {}
+[57.929626] (-) TimerEvent: {}
+[58.030057] (-) TimerEvent: {}
+[58.130450] (-) TimerEvent: {}
+[58.236820] (-) TimerEvent: {}
+[58.337231] (-) TimerEvent: {}
+[58.437633] (-) TimerEvent: {}
+[58.538039] (-) TimerEvent: {}
+[58.638414] (-) TimerEvent: {}
+[58.738827] (-) TimerEvent: {}
+[58.839215] (-) TimerEvent: {}
+[58.939618] (-) TimerEvent: {}
+[59.040012] (-) TimerEvent: {}
+[59.140398] (-) TimerEvent: {}
+[59.240759] (-) TimerEvent: {}
+[59.341146] (-) TimerEvent: {}
+[59.441545] (-) TimerEvent: {}
+[59.541926] (-) TimerEvent: {}
+[59.642322] (-) TimerEvent: {}
+[59.742737] (-) TimerEvent: {}
+[59.843126] (-) TimerEvent: {}
+[59.943535] (-) TimerEvent: {}
+[60.043936] (-) TimerEvent: {}
+[60.144349] (-) TimerEvent: {}
+[60.244734] (-) TimerEvent: {}
+[60.345133] (-) TimerEvent: {}
+[60.445544] (-) TimerEvent: {}
+[60.548842] (-) TimerEvent: {}
+[60.649245] (-) TimerEvent: {}
+[60.749665] (-) TimerEvent: {}
+[60.850069] (-) TimerEvent: {}
+[60.950497] (-) TimerEvent: {}
+[61.057186] (-) TimerEvent: {}
+[61.157592] (-) TimerEvent: {}
+[61.257973] (-) TimerEvent: {}
+[61.358379] (-) TimerEvent: {}
+[61.465067] (-) TimerEvent: {}
+[61.565501] (-) TimerEvent: {}
+[61.670811] (-) TimerEvent: {}
+[61.771194] (-) TimerEvent: {}
+[61.871594] (-) TimerEvent: {}
+[61.971946] (-) TimerEvent: {}
+[62.072316] (-) TimerEvent: {}
+[62.172731] (-) TimerEvent: {}
+[62.273091] (-) TimerEvent: {}
+[62.373448] (-) TimerEvent: {}
+[62.474929] (-) TimerEvent: {}
+[62.575355] (-) TimerEvent: {}
+[62.675709] (-) TimerEvent: {}
+[62.776075] (-) TimerEvent: {}
+[62.876436] (-) TimerEvent: {}
+[62.983128] (-) TimerEvent: {}
+[63.083495] (-) TimerEvent: {}
+[63.183871] (-) TimerEvent: {}
+[63.284262] (-) TimerEvent: {}
+[63.386810] (-) TimerEvent: {}
+[63.488856] (-) TimerEvent: {}
+[63.589290] (-) TimerEvent: {}
+[63.689649] (-) TimerEvent: {}
+[63.790030] (-) TimerEvent: {}
+[63.890444] (-) TimerEvent: {}
+[63.990806] (-) TimerEvent: {}
+[64.091188] (-) TimerEvent: {}
+[64.191628] (-) TimerEvent: {}
+[64.292021] (-) TimerEvent: {}
+[64.392454] (-) TimerEvent: {}
+[64.496854] (-) TimerEvent: {}
+[64.597262] (-) TimerEvent: {}
+[64.697696] (-) TimerEvent: {}
+[64.798218] (-) TimerEvent: {}
+[64.904849] (-) TimerEvent: {}
+[65.005367] (-) TimerEvent: {}
+[65.105762] (-) TimerEvent: {}
+[65.206179] (-) TimerEvent: {}
+[65.312820] (-) TimerEvent: {}
+[65.413501] (-) TimerEvent: {}
+[65.516808] (-) TimerEvent: {}
+[65.617227] (-) TimerEvent: {}
+[65.717657] (-) TimerEvent: {}
+[65.818015] (-) TimerEvent: {}
+[65.918403] (-) TimerEvent: {}
+[66.018809] (-) TimerEvent: {}
+[66.119158] (-) TimerEvent: {}
+[66.219521] (-) TimerEvent: {}
+[66.319959] (-) TimerEvent: {}
+[66.420358] (-) TimerEvent: {}
+[66.520752] (-) TimerEvent: {}
+[66.621147] (-) TimerEvent: {}
+[66.721574] (-) TimerEvent: {}
+[66.821991] (-) TimerEvent: {}
+[66.922358] (-) TimerEvent: {}
+[67.022722] (-) TimerEvent: {}
+[67.123081] (-) TimerEvent: {}
+[67.223450] (-) TimerEvent: {}
+[67.323845] (-) TimerEvent: {}
+[67.424243] (-) TimerEvent: {}
+[67.524657] (-) TimerEvent: {}
+[67.626815] (-) TimerEvent: {}
+[67.727226] (-) TimerEvent: {}
+[67.827635] (-) TimerEvent: {}
+[67.928035] (-) TimerEvent: {}
+[68.028490] (-) TimerEvent: {}
+[68.128862] (-) TimerEvent: {}
+[68.229303] (-) TimerEvent: {}
+[68.329767] (-) TimerEvent: {}
+[68.430138] (-) TimerEvent: {}
+[68.530510] (-) TimerEvent: {}
+[68.630931] (-) TimerEvent: {}
+[68.736814] (-) TimerEvent: {}
+[68.837251] (-) TimerEvent: {}
+[68.937667] (-) TimerEvent: {}
+[69.038108] (-) TimerEvent: {}
+[69.138554] (-) TimerEvent: {}
+[69.238980] (-) TimerEvent: {}
+[69.339431] (-) TimerEvent: {}
+[69.439843] (-) TimerEvent: {}
+[69.540216] (-) TimerEvent: {}
+[69.640642] (-) TimerEvent: {}
+[69.741010] (-) TimerEvent: {}
+[69.846875] (-) TimerEvent: {}
+[69.947323] (-) TimerEvent: {}
+[70.047727] (-) TimerEvent: {}
+[70.148124] (-) TimerEvent: {}
+[70.248539] (-) TimerEvent: {}
+[70.348937] (-) TimerEvent: {}
+[70.449357] (-) TimerEvent: {}
+[70.549752] (-) TimerEvent: {}
+[70.650168] (-) TimerEvent: {}
+[70.756797] (-) TimerEvent: {}
+[70.857225] (-) TimerEvent: {}
+[70.957638] (-) TimerEvent: {}
+[71.058042] (-) TimerEvent: {}
+[71.158453] (-) TimerEvent: {}
+[71.258828] (-) TimerEvent: {}
+[71.359208] (-) TimerEvent: {}
+[71.459615] (-) TimerEvent: {}
+[71.471414] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:8\x1b[m\x1b[K,\n'}
+[71.471703] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[71.471955] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[71.472109] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KsrvMultipleGoals::srvMultipleGoals(double, double, Miscelaneo*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[71.472265] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Multiple_Goals.hpp:3:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*this.srvMultipleGoals::<anonymous>.srvEvaluateDriver::misc\x1b[m\x1b[K\xe2\x80\x99 is used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized\x07-Wuninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[71.472441] (cognitive_architecture) StderrLine: {'line': b'    3 | srvMultipleGoals::srvMultipleGoals(double x, double y, Miscelaneo *misc_): srvEvaluateDriver(x,y,misc\x1b[01;35m\x1b[K)\x1b[m\x1b[K //Node("servidor_simulacion_Multiple_Goals")\n'}
+[71.472595] (cognitive_architecture) StderrLine: {'line': b'      |                                                                                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[71.472740] (cognitive_architecture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.h:9\x1b[m\x1b[K,\n'}
+[71.472884] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/robot.hpp:1\x1b[m\x1b[K,\n'}
+[71.473029] (cognitive_architecture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/src/controlador_meta.cpp:8\x1b[m\x1b[K:\n'}
+[71.473176] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KsrvTeamMovement::srvTeamMovement(double, double, Miscelaneo*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[71.473324] (cognitive_architecture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/cognitive_architecture/include/cognitive_architecture/control_simulacion/srvED_Team_Movement.hpp:3:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K*this.srvTeamMovement::<anonymous>.srvEvaluateDriver::misc\x1b[m\x1b[K\xe2\x80\x99 is used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized\x07-Wuninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[71.473524] (cognitive_architecture) StderrLine: {'line': b'    3 | srvTeamMovement::srvTeamMovement(double x, double y, Miscelaneo * misc_): srvEvaluateDriver(x,y,misc\x1b[01;35m\x1b[K)\x1b[m\x1b[K // hay que agregar el id del robot que le corresponda\n'}
+[71.473670] (cognitive_architecture) StderrLine: {'line': b'      |                                                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[71.559746] (-) TimerEvent: {}
+[71.660133] (-) TimerEvent: {}
+[71.760550] (-) TimerEvent: {}
+[71.860950] (-) TimerEvent: {}
+[71.961394] (-) TimerEvent: {}
+[72.061847] (-) TimerEvent: {}
+[72.162275] (-) TimerEvent: {}
+[72.262699] (-) TimerEvent: {}
+[72.363159] (-) TimerEvent: {}
+[72.463586] (-) TimerEvent: {}
+[72.563952] (-) TimerEvent: {}
+[72.664289] (-) TimerEvent: {}
+[72.764669] (-) TimerEvent: {}
+[72.865018] (-) TimerEvent: {}
+[72.965404] (-) TimerEvent: {}
+[73.065758] (-) TimerEvent: {}
+[73.166093] (-) TimerEvent: {}
+[73.266449] (-) TimerEvent: {}
+[73.366786] (-) TimerEvent: {}
+[73.467126] (-) TimerEvent: {}
+[73.567485] (-) TimerEvent: {}
+[73.667825] (-) TimerEvent: {}
+[73.768177] (-) TimerEvent: {}
+[73.868521] (-) TimerEvent: {}
+[73.968858] (-) TimerEvent: {}
+[74.069198] (-) TimerEvent: {}
+[74.169570] (-) TimerEvent: {}
+[74.269910] (-) TimerEvent: {}
+[74.370250] (-) TimerEvent: {}
+[74.476849] (-) TimerEvent: {}
+[74.577262] (-) TimerEvent: {}
+[74.677666] (-) TimerEvent: {}
+[74.778037] (-) TimerEvent: {}
+[74.878440] (-) TimerEvent: {}
+[74.978784] (-) TimerEvent: {}
+[75.079124] (-) TimerEvent: {}
+[75.179462] (-) TimerEvent: {}
+[75.279806] (-) TimerEvent: {}
+[75.380138] (-) TimerEvent: {}
+[75.480489] (-) TimerEvent: {}
+[75.580833] (-) TimerEvent: {}
+[75.681167] (-) TimerEvent: {}
+[75.781515] (-) TimerEvent: {}
+[75.881857] (-) TimerEvent: {}
+[75.982246] (-) TimerEvent: {}
+[76.082604] (-) TimerEvent: {}
+[76.182938] (-) TimerEvent: {}
+[76.283277] (-) TimerEvent: {}
+[76.383637] (-) TimerEvent: {}
+[76.483976] (-) TimerEvent: {}
+[76.584371] (-) TimerEvent: {}
+[76.684711] (-) TimerEvent: {}
+[76.786807] (-) TimerEvent: {}
+[76.887177] (-) TimerEvent: {}
+[76.987522] (-) TimerEvent: {}
+[77.087861] (-) TimerEvent: {}
+[77.188200] (-) TimerEvent: {}
+[77.288598] (-) TimerEvent: {}
+[77.388985] (-) TimerEvent: {}
+[77.489323] (-) TimerEvent: {}
+[77.589670] (-) TimerEvent: {}
+[77.690004] (-) TimerEvent: {}
+[77.790350] (-) TimerEvent: {}
+[77.896902] (-) TimerEvent: {}
+[77.997238] (-) TimerEvent: {}
+[78.097632] (-) TimerEvent: {}
+[78.197998] (-) TimerEvent: {}
+[78.298376] (-) TimerEvent: {}
+[78.398766] (-) TimerEvent: {}
+[78.499129] (-) TimerEvent: {}
+[78.599503] (-) TimerEvent: {}
+[78.699876] (-) TimerEvent: {}
+[78.800286] (-) TimerEvent: {}
+[78.900631] (-) TimerEvent: {}
+[79.000967] (-) TimerEvent: {}
+[79.106814] (-) TimerEvent: {}
+[79.207220] (-) TimerEvent: {}
+[79.307602] (-) TimerEvent: {}
+[79.407984] (-) TimerEvent: {}
+[79.508379] (-) TimerEvent: {}
+[79.608765] (-) TimerEvent: {}
+[79.709148] (-) TimerEvent: {}
+[79.809527] (-) TimerEvent: {}
+[79.909913] (-) TimerEvent: {}
+[80.010302] (-) TimerEvent: {}
+[80.110689] (-) TimerEvent: {}
+[80.216815] (-) TimerEvent: {}
+[80.317226] (-) TimerEvent: {}
+[80.417612] (-) TimerEvent: {}
+[80.517978] (-) TimerEvent: {}
+[80.618349] (-) TimerEvent: {}
+[80.718712] (-) TimerEvent: {}
+[80.819090] (-) TimerEvent: {}
+[80.919458] (-) TimerEvent: {}
+[81.019833] (-) TimerEvent: {}
+[81.120203] (-) TimerEvent: {}
+[81.220579] (-) TimerEvent: {}
+[81.326808] (-) TimerEvent: {}
+[81.427212] (-) TimerEvent: {}
+[81.527598] (-) TimerEvent: {}
+[81.627962] (-) TimerEvent: {}
+[81.728373] (-) TimerEvent: {}
+[81.830426] (-) TimerEvent: {}
+[81.937048] (-) TimerEvent: {}
+[82.037522] (-) TimerEvent: {}
+[82.137911] (-) TimerEvent: {}
+[82.238316] (-) TimerEvent: {}
+[82.338766] (-) TimerEvent: {}
+[82.439143] (-) TimerEvent: {}
+[82.539532] (-) TimerEvent: {}
+[82.644858] (-) TimerEvent: {}
+[82.745231] (-) TimerEvent: {}
+[82.845631] (-) TimerEvent: {}
+[82.946060] (-) TimerEvent: {}
+[83.046419] (-) TimerEvent: {}
+[83.153137] (-) TimerEvent: {}
+[83.253526] (-) TimerEvent: {}
+[83.353870] (-) TimerEvent: {}
+[83.454268] (-) TimerEvent: {}
+[83.554672] (-) TimerEvent: {}
+[83.655063] (-) TimerEvent: {}
+[83.755482] (-) TimerEvent: {}
+[83.855999] (-) TimerEvent: {}
+[83.956344] (-) TimerEvent: {}
+[84.056680] (-) TimerEvent: {}
+[84.157012] (-) TimerEvent: {}
+[84.257362] (-) TimerEvent: {}
+[84.357748] (-) TimerEvent: {}
+[84.458125] (-) TimerEvent: {}
+[84.558476] (-) TimerEvent: {}
+[84.658809] (-) TimerEvent: {}
+[84.759143] (-) TimerEvent: {}
+[84.864831] (-) TimerEvent: {}
+[84.965269] (-) TimerEvent: {}
+[85.065652] (-) TimerEvent: {}
+[85.166024] (-) TimerEvent: {}
+[85.266408] (-) TimerEvent: {}
+[85.373044] (-) TimerEvent: {}
+[85.473414] (-) TimerEvent: {}
+[85.573789] (-) TimerEvent: {}
+[85.674159] (-) TimerEvent: {}
+[85.776847] (-) TimerEvent: {}
+[85.877251] (-) TimerEvent: {}
+[85.977635] (-) TimerEvent: {}
+[86.078018] (-) TimerEvent: {}
+[86.178384] (-) TimerEvent: {}
+[86.285028] (-) TimerEvent: {}
+[86.385424] (-) TimerEvent: {}
+[86.485841] (-) TimerEvent: {}
+[86.586851] (-) TimerEvent: {}
+[86.687422] (-) TimerEvent: {}
+[86.787791] (-) TimerEvent: {}
+[86.888166] (-) TimerEvent: {}
+[86.988547] (-) TimerEvent: {}
+[87.088885] (-) TimerEvent: {}
+[87.189251] (-) TimerEvent: {}
+[87.289635] (-) TimerEvent: {}
+[87.390011] (-) TimerEvent: {}
+[87.490389] (-) TimerEvent: {}
+[87.590753] (-) TimerEvent: {}
+[87.691144] (-) TimerEvent: {}
+[87.791541] (-) TimerEvent: {}
+[87.894831] (-) TimerEvent: {}
+[87.995305] (-) TimerEvent: {}
+[88.095679] (-) TimerEvent: {}
+[88.196072] (-) TimerEvent: {}
+[88.296443] (-) TimerEvent: {}
+[88.403115] (-) TimerEvent: {}
+[88.503620] (-) TimerEvent: {}
+[88.604232] (-) TimerEvent: {}
+[88.704903] (-) TimerEvent: {}
+[88.805671] (-) TimerEvent: {}
+[88.906447] (-) TimerEvent: {}
+[89.006801] (-) TimerEvent: {}
+[89.107203] (-) TimerEvent: {}
+[89.207643] (-) TimerEvent: {}
+[89.307987] (-) TimerEvent: {}
+[89.408348] (-) TimerEvent: {}
+[89.514830] (-) TimerEvent: {}
+[89.615360] (-) TimerEvent: {}
+[89.715738] (-) TimerEvent: {}
+[89.816173] (-) TimerEvent: {}
+[89.922804] (-) TimerEvent: {}
+[90.023202] (-) TimerEvent: {}
+[90.123585] (-) TimerEvent: {}
+[90.223968] (-) TimerEvent: {}
+[90.324393] (-) TimerEvent: {}
+[90.431196] (-) TimerEvent: {}
+[90.531570] (-) TimerEvent: {}
+[90.631919] (-) TimerEvent: {}
+[90.732266] (-) TimerEvent: {}
+[90.834836] (-) TimerEvent: {}
+[90.935261] (-) TimerEvent: {}
+[91.035697] (-) TimerEvent: {}
+[91.136135] (-) TimerEvent: {}
+[91.242799] (-) TimerEvent: {}
+[91.343239] (-) TimerEvent: {}
+[91.443632] (-) TimerEvent: {}
+[91.544018] (-) TimerEvent: {}
+[91.644411] (-) TimerEvent: {}
+[91.746848] (-) TimerEvent: {}
+[91.847229] (-) TimerEvent: {}
+[91.947660] (-) TimerEvent: {}
+[92.048079] (-) TimerEvent: {}
+[92.148488] (-) TimerEvent: {}
+[92.248871] (-) TimerEvent: {}
+[92.349257] (-) TimerEvent: {}
+[92.364100] (cognitive_architecture) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable meta_exe\x1b[0m\n'}
+[92.449395] (-) TimerEvent: {}
+[92.549743] (-) TimerEvent: {}
+[92.650108] (-) TimerEvent: {}
+[92.750509] (-) TimerEvent: {}
+[92.856813] (-) TimerEvent: {}
+[92.957250] (-) TimerEvent: {}
+[93.057671] (-) TimerEvent: {}
+[93.158291] (-) TimerEvent: {}
+[93.258743] (-) TimerEvent: {}
+[93.359153] (-) TimerEvent: {}
+[93.459669] (-) TimerEvent: {}
+[93.560362] (-) TimerEvent: {}
+[93.660765] (-) TimerEvent: {}
+[93.766802] (-) TimerEvent: {}
+[93.867281] (-) TimerEvent: {}
+[93.967674] (-) TimerEvent: {}
+[94.068039] (-) TimerEvent: {}
+[94.168456] (-) TimerEvent: {}
+[94.268838] (-) TimerEvent: {}
+[94.369180] (-) TimerEvent: {}
+[94.469547] (-) TimerEvent: {}
+[94.569930] (-) TimerEvent: {}
+[94.670306] (-) TimerEvent: {}
+[94.770720] (-) TimerEvent: {}
+[94.876858] (-) TimerEvent: {}
+[94.977262] (-) TimerEvent: {}
+[95.077604] (-) TimerEvent: {}
+[95.177966] (-) TimerEvent: {}
+[95.278349] (-) TimerEvent: {}
+[95.378769] (-) TimerEvent: {}
+[95.461767] (cognitive_architecture) StdoutLine: {'line': b'[100%] Built target meta_exe\n'}
+[95.478894] (-) TimerEvent: {}
+[95.579297] (-) TimerEvent: {}
+[95.679651] (-) TimerEvent: {}
+[95.779998] (-) TimerEvent: {}
+[95.880354] (-) TimerEvent: {}
+[95.889302] (cognitive_architecture) StdoutLine: {'line': b'running egg_info\n'}
+[95.890187] (cognitive_architecture) StdoutLine: {'line': b'writing cognitive_architecture.egg-info/PKG-INFO\n'}
+[95.890467] (cognitive_architecture) StdoutLine: {'line': b'writing dependency_links to cognitive_architecture.egg-info/dependency_links.txt\n'}
+[95.890731] (cognitive_architecture) StdoutLine: {'line': b'writing top-level names to cognitive_architecture.egg-info/top_level.txt\n'}
+[95.893938] (cognitive_architecture) StdoutLine: {'line': b"reading manifest file 'cognitive_architecture.egg-info/SOURCES.txt'\n"}
+[95.894746] (cognitive_architecture) StdoutLine: {'line': b"writing manifest file 'cognitive_architecture.egg-info/SOURCES.txt'\n"}
+[95.947388] (cognitive_architecture) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cognitive_architecture_egg\n'}
+[95.961515] (cognitive_architecture) CommandEnded: {'returncode': 0}
+[95.962584] (cognitive_architecture) JobProgress: {'identifier': 'cognitive_architecture', 'progress': 'install'}
+[95.973613] (cognitive_architecture) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture'], 'cwd': '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'antonio'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/antonio'), ('OLDPWD', '/home/antonio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1217'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antonio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antonio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xps14z:@/tmp/.ICE-unix/1179,unix/xps14z:/tmp/.ICE-unix/1179'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a1285d4_336f_4ca5_9167_70ff3bc85f9e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H678F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.172'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces:/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture:/opt/ros/humble')]), 'shell': False}
+[95.980461] (-) TimerEvent: {}
+[95.989280] (cognitive_architecture) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[95.989842] (cognitive_architecture) StdoutLine: {'line': b'-- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/cpp_exe\n'}
+[96.027978] (cognitive_architecture) StdoutLine: {'line': b'-- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/cpp_exe" to ""\n'}
+[96.028361] (cognitive_architecture) StdoutLine: {'line': b'-- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/meta_exe\n'}
+[96.055474] (cognitive_architecture) StdoutLine: {'line': b'-- Set runtime path of "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/meta_exe" to ""\n'}
+[96.055862] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/pythonpath.sh\n'}
+[96.056064] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/pythonpath.dsv\n'}
+[96.056264] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info\n'}
+[96.056534] (cognitive_architecture) StdoutLine: {'line': b'-- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[96.056768] (cognitive_architecture) StdoutLine: {'line': b'-- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[96.056963] (cognitive_architecture) StdoutLine: {'line': b'-- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[96.057199] (cognitive_architecture) StdoutLine: {'line': b'-- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[96.057363] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture\n'}
+[96.057528] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/corteza_motora_primaria.py\n'}
+[96.057691] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/robot.py\n'}
+[96.057845] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/README.md\n'}
+[96.058003] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/__init__.py\n'}
+[96.058156] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture/lobulo_temporal.py\n'}
+[96.080564] (-) TimerEvent: {}
+[96.109952] (cognitive_architecture) StdoutLine: {'line': b"Listing '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/local/lib/python3.10/dist-packages/cognitive_architecture'...\n"}
+[96.116738] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/lib/cognitive_architecture/Controlador_individuo.py\n'}
+[96.117499] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch\n'}
+[96.117771] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch/gazebo.launch.py\n'}
+[96.117876] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch/dummys.launch.py\n'}
+[96.117976] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/launch/meta_trainning.launch.py\n'}
+[96.118085] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models\n'}
+[96.118183] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target\n'}
+[96.118320] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/model.config\n'}
+[96.118494] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes\n'}
+[96.118647] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/curling.dae\n'}
+[96.118808] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/target.png\n'}
+[96.118961] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/curling_target.dae\n'}
+[96.119089] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/diana.blend\n'}
+[96.119236] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/meshes/diana.blend1\n'}
+[96.119440] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/materials\n'}
+[96.119631] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/materials/textures\n'}
+[96.119758] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/materials/textures/target.png\n'}
+[96.119861] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/curling_target/curling_target.sdf\n'}
+[96.119962] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane\n'}
+[96.120063] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/model.config\n'}
+[96.120299] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/checkerboard_plane.sdf\n'}
+[96.120432] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/meshes\n'}
+[96.120692] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/meshes/checker.png\n'}
+[96.120829] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/meshes/checkerboard_plane.dae\n'}
+[96.120940] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/materials\n'}
+[96.121042] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/materials/textures\n'}
+[96.121152] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/checkerboard_plane/materials/textures/checker.png\n'}
+[96.121254] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/bardas_madera\n'}
+[96.121375] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/bardas_madera/model.config\n'}
+[96.121495] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/bardas_madera/model.sdf\n'}
+[96.121598] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet\n'}
+[96.121766] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/cerebral_carpet.sdf\n'}
+[96.121895] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/model.config\n'}
+[96.121998] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes\n'}
+[96.122098] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/cerebral_carpet.dae\n'}
+[96.122200] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/curling.dae\n'}
+[96.122300] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/cerebral_carpet.svg\n'}
+[96.122587] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/target.png\n'}
+[96.122860] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/diana.blend\n'}
+[96.123002] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/meshes/diana.blend1\n'}
+[96.123144] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/materials\n'}
+[96.123284] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/materials/textures\n'}
+[96.123533] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_carpet/materials/textures/target.png\n'}
+[96.123668] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arrow_red\n'}
+[96.123778] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arrow_red/model.config\n'}
+[96.123880] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arrow_red/model.sdf\n'}
+[96.123990] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal\n'}
+[96.124092] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/model.config\n'}
+[96.124192] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/cerebral_goal.sdf\n'}
+[96.124293] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes\n'}
+[96.124431] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/cerebral_goal.svg\n'}
+[96.124545] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/curling.dae\n'}
+[96.124646] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/cerebral_carpet.svg\n'}
+[96.124747] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/target.png\n'}
+[96.124857] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/diana.blend\n'}
+[96.124959] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/diana.blend1\n'}
+[96.125115] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/meshes/cerebral_goal.dae\n'}
+[96.125253] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/materials\n'}
+[96.125541] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/materials/textures\n'}
+[96.125847] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/cerebral_goal/materials/textures/target.png\n'}
+[96.125984] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo\n'}
+[96.126104] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/arlourdf.urdf\n'}
+[96.126640] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/model.config\n'}
+[96.127049] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/prueba.urdf\n'}
+[96.127158] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes\n'}
+[96.127266] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_base_altura_ok.dae\n'}
+[96.127675] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_wheel_mejorado_backup.dae\n'}
+[96.127874] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Rueda_izquierda_link.STL\n'}
+[96.127983] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_base_backup.dae\n'}
+[96.128128] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Rueda_derecha_link.STL\n'}
+[96.128238] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Rueda_castor_link.STL\n'}
+[96.128360] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_sensor.dae\n'}
+[96.128626] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/base_link.STL\n'}
+[96.128735] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/Base_castor_link.STL\n'}
+[96.128842] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_wheel_mejorado.dae\n'}
+[96.128949] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_base.dae\n'}
+[96.129098] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/meshes/arlo_wheel.dae\n'}
+[96.129206] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/models/arlo/model.sdf\n'}
+[96.129353] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds\n'}
+[96.129659] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/curling_obstaculo.world.xml\n'}
+[96.129769] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/box_bot_empty.world\n'}
+[96.129877] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/arena_cerebral.world\n'}
+[96.129984] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/walk_verde.dae\n'}
+[96.130090] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/escenarioRiesgoso.world.docx\n'}
+[96.130197] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/cafe_uam_1.world\n'}
+[96.130303] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/cafe_uam.world.docx\n'}
+[96.130441] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/curling_empty_field.world.xml\n'}
+[96.130581] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/pista_pasillo_cerebral.world\n'}
+[96.130689] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/curling_libre.world.xml\n'}
+[96.130797] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/pista_herradura.world\n'}
+[96.130904] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/basic_house_obstacles.world.xml\n'}
+[96.131011] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/escenarioAusteroCalvos.world.docx\n'}
+[96.131117] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/pista_herradura_cerebral.world\n'}
+[96.131314] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/bote_azul_obstaculos.world.xml\n'}
+[96.131546] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/cuadrilatero_obstaculos.world.xml\n'}
+[96.131663] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/bote_azul_libre.world.xml\n'}
+[96.131780] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/laberinto_01.world\n'}
+[96.131929] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/worlds/escenarioAustero.world.docx\n'}
+[96.132039] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/ament_index/resource_index/package_run_dependencies/cognitive_architecture\n'}
+[96.132147] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/ament_index/resource_index/parent_prefix_path/cognitive_architecture\n'}
+[96.132254] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/ament_prefix_path.sh\n'}
+[96.132494] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/ament_prefix_path.dsv\n'}
+[96.132635] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/path.sh\n'}
+[96.132742] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/environment/path.dsv\n'}
+[96.132870] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.bash\n'}
+[96.132977] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.sh\n'}
+[96.133083] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.zsh\n'}
+[96.133189] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/local_setup.dsv\n'}
+[96.133300] (cognitive_architecture) StdoutLine: {'line': b'-- Installing: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.dsv\n'}
+[96.133433] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/ament_index/resource_index/packages/cognitive_architecture\n'}
+[96.133606] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/cmake/cognitive_architectureConfig.cmake\n'}
+[96.133707] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/cmake/cognitive_architectureConfig-version.cmake\n'}
+[96.133807] (cognitive_architecture) StdoutLine: {'line': b'-- Up-to-date: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/cognitive_architecture/share/cognitive_architecture/package.xml\n'}
+[96.133910] (cognitive_architecture) CommandEnded: {'returncode': 0}
+[96.174301] (cognitive_architecture) JobEnded: {'identifier': 'cognitive_architecture', 'rc': 0}
+[96.195754] (-) TimerEvent: {}
+[96.195928] (-) EventReactorShutdown: {}

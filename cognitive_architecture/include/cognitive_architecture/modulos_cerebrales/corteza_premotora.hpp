@@ -1,27 +1,36 @@
 #include "corteza_premotora.h"
 
 using std::placeholders::_1;
-// #include "cognitive_architecture/SimulationController.h"
 
-// este nodo contiene el algoritmo evolutivo para los pesos de la red neuronal de la cms
+// CP: Corteza Premotora - Se encarga de la optimización y el protocolo de imitación.
 
 cp::cp(int i, RobotNaviFun *p, ParamsGA params, bool *bandera, int task) : 
-                    Node("Corteza_premotora_" + std::to_string(i) + "0"),
-                    identificador(i), genetico(p, params, i, task), flag(bandera), task(task)
+                    Node("robot" + std::to_string(i) + "_premotora"), // Identidad limpia
+                    identificador(i), 
+                    genetico(p, params, i, task), 
+                    flag(bandera), 
+                    task(task)
 {
+    // Nombre base para todos los tópicos del robot
+    string base_name = "robot" + std::to_string(i);
+    
     inputDir = "./archivo_pesos_" + std::to_string(identificador) + ".txt";
 
+    // Cliente para resetear el mundo en Gazebo
     reset_simulation_client_ = this->create_client<std_srvs::srv::Empty>("/reset_world");
 
-    publisher_ = this->create_publisher<std_msgs::msg::String>("robot" + std::to_string(i) + "0/corteza_premotora_pesos", 10);
+    // Publicador de pesos (Ahora apunta al tópico correcto sin el "0" extra)
+    publisher_ = this->create_publisher<std_msgs::msg::String>(base_name + "/corteza_premotora_pesos", 10);
 
     if (task == 2)
-    { // si la task a evaluar ocupa actualizar el numero de mates
-        publisherMates = this->create_publisher<std_msgs::msg::Int64>("robot" + std::to_string(i) + "0/redefineMates", 10);
+    { 
+        publisherMates = this->create_publisher<std_msgs::msg::Int64>(base_name + "/redefineMates", 10);
         auto actualizaMates = std_msgs::msg::Int64();
         actualizaMates.data = 1;
         publisherMates->publish(actualizaMates);
     }
+
+    RCLCPP_INFO(this->get_logger(), "Corteza Premotora del Robot %d inicializada.", identificador);
 }
 
 cp::~cp() {}
@@ -35,11 +44,8 @@ void cp::resetGazebo() const
 void cp::ejecutaGenetico()
 {
     genetico.optimizar();
-
     auto mensajePesos = std_msgs::msg::String();
-
-    // mensajePesos.data = "archivo_pesos_%d.txt", identificador;
-    char buffer[50];
+    char buffer[100];
     std::sprintf(buffer, "./archivo_pesos_%d_%d.txt", identificador, task);
     mensajePesos.data = std::string(buffer);
 
@@ -49,15 +55,16 @@ void cp::ejecutaGenetico()
 
 void cp::Mirroring(int i)
 {
-    cerr << i << endl;
-    client_getWeights = this->create_client<arlo_interfaces::srv::GetImportantWeights>("robot"+to_string(i)+"0/service_importantWeights");
+    // target_robot será "robot1", "robot2", etc.
+    string target_robot = "robot" + to_string(i);
+    RCLCPP_INFO(this->get_logger(), "Buscando pesos del %s para imitación...", target_robot.c_str());
+
+    // Buscamos el servicio en el robot objetivo (target_robot)
+    client_getWeights = this->create_client<arlo_interfaces::srv::GetImportantWeights>(target_robot + "/service_importantWeights");
     
-    while (!client_getWeights->wait_for_service(chrono::seconds(1))) {
-        if (!rclcpp::ok()) {
-            cout << "Servicio para Mirroing no disponible. Saliendo." << endl;
-            return;
-        }
-        cout << "Servicio para Mirroing no disponible. Intentando nuevamente..." << endl;
+    if (!client_getWeights->wait_for_service(chrono::seconds(2))) {
+        RCLCPP_ERROR(this->get_logger(), "El %s no respondió. ¿Está encendido?", target_robot.c_str());
+        return;
     }
 
     auto request = std::make_shared<arlo_interfaces::srv::GetImportantWeights::Request>();
@@ -65,92 +72,14 @@ void cp::Mirroring(int i)
     
     if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), response) == rclcpp::FutureReturnCode::SUCCESS) {
         auto result = response.get();
-        // cerr << "Pesos obtenidos " << result->weightsfile << endl;
-
         auto mensajePesos = std_msgs::msg::String(); 
         mensajePesos.data = result->weightsfile;
+        
+        // Informamos a nuestra propia Corteza Motora de los nuevos pesos
         publisher_->publish(mensajePesos);
+        RCLCPP_INFO(this->get_logger(), "¡Imitación completada! Usando pesos de %s", target_robot.c_str());
 
     } else {
-        cout << "Fallo al llamar al servicio para obtener pesos para imitación." << endl;
+        RCLCPP_ERROR(this->get_logger(), "Error en la comunicación de imitación.");
     }
-    
-    cerr << "Terminó el cp::mirroring" << endl; 
 }
-
-
-// void cp::Mirroring(int i)
-// {
-//     std::cerr << "Iniciando el proceso de Mirroring con el robot: " << i << std::endl;
-
-//     // Crear cliente solo una vez, fuera de cualquier ciclo
-//     client_getWeights = this->create_client<arlo_interfaces::srv::GetImportantWeights>("robot"+std::to_string(i)+"0/service_importantWeights");
-
-//     while (!client_getWeights->wait_for_service(std::chrono::seconds(1))) {
-//         if (!rclcpp::ok()) {
-//             std::cout << "Servicio para Mirroring no disponible. Saliendo." << std::endl;
-//             return;
-//         }
-//         std::cout << "Esperando el servicio para Mirroring..." << std::endl;
-//     }
-
-//     auto request = std::make_shared<arlo_interfaces::srv::GetImportantWeights::Request>();
-//     auto response = client_getWeights->async_send_request(request);
-
-//     if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), response) == rclcpp::FutureReturnCode::SUCCESS) {
-//         auto result = response.get();
-//         std::cerr << "Pesos obtenidos: " << result->weightsfile << std::endl;
-
-//         // Leer pesos actuales desde archivo
-//         std::ifstream inputFile(inputDir);
-//         std::vector<double> currentWeights;
-//         double weight;
-//         if (!inputFile.is_open()) {
-//             std::cerr << "No se pudo abrir el archivo de pesos " << inputDir << std::endl;
-//             return;
-//         }
-//         while (inputFile >> weight) {
-//             currentWeights.push_back(weight);
-//         }
-//         inputFile.close();
-
-//         // Leer pesos obtenidos del robot más cercano
-//         std::ifstream newWeightsFile(result->weightsfile);
-//         std::vector<double> newWeights;
-//         if (!newWeightsFile.is_open()) {
-//             std::cerr << "No se pudo abrir el archivo de pesos del robot más cercano." << std::endl;
-//             return;
-//         }
-//         while (newWeightsFile >> weight) {
-//             newWeights.push_back(weight);
-//         }
-//         newWeightsFile.close();
-
-//         // Combinación de pesos (promedio simple en este caso)
-//         std::vector<double> combinedWeights;
-//         for (size_t j = 0; j < currentWeights.size() && j < newWeights.size(); ++j) {
-//             combinedWeights.push_back((currentWeights[j] + newWeights[j]) / 2.0);
-//         }
-
-//         // Guardar los pesos combinados en el archivo
-//         std::ofstream outputFile(inputDir);
-//         if (!outputFile.is_open()) {
-//             std::cerr << "No se pudo abrir el archivo para escribir los pesos combinados." << std::endl;
-//             return;
-//         }
-//         for (const double& w : combinedWeights) {
-//             outputFile << w << " ";
-//         }
-//         outputFile.close();
-
-//         // Publicar el mensaje con los nuevos pesos combinados
-//         std_msgs::msg::String mensajePesos;
-//         mensajePesos.data = inputDir;
-//         publisher_->publish(mensajePesos);
-
-//     } else {
-//         std::cout << "Fallo al llamar al servicio para obtener pesos para imitación." << std::endl;
-//     }
-
-//     std::cerr << "Terminó el proceso de mirroring." << std::endl; 
-// }

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-368ca617a50873331beb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "arlo_interfaces__py",
+					"jsonFile" : "directory-arlo_interfaces__py-e67f0b431d6d728c5d90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces/arlo_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "arlo_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arlo_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arlo_interfaces_egg-4bbb3603d4348122a6e1.json",
+					"name" : "ament_cmake_python_build_arlo_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arlo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arlo_interfaces-1e99c61da3ab17cf33e6.json",
+					"name" : "ament_cmake_python_copy_arlo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces-29952cfb433ad7364490.json",
+					"name" : "arlo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__cpp-11d45cd39032432be745.json",
+					"name" : "arlo_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "arlo_interfaces__py::@edf79bc2fe2a759577ab",
+					"jsonFile" : "target-arlo_interfaces__py-0fc11edcbde552f27ba6.json",
+					"name" : "arlo_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_generator_c-6f09b92d47c14bca4129.json",
+					"name" : "arlo_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_generator_py-29793e64dac8bf543ffd.json",
+					"name" : "arlo_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_c-62e31862e1b31e4a2721.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_c__pyext-b46ee7db6387f107d984.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_cpp-1e89404b6cdd9b8ee22e.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_fastrtps_c-cd278275500e0d85d66d.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_fastrtps_c__pyext-8596a2f8cd15c13fea35.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_fastrtps_cpp-72e55bf91d97878d0eb5.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_introspection_c-5e3be27e271dbce31327.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_introspection_c__pyext-dbf4fe55218b898cf22a.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces__rosidl_typesupport_introspection_cpp-08e6c967ea6739e7aeb5.json",
+					"name" : "arlo_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arlo_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arlo_interfaces_uninstall-11e82d9868ca7138d2f6.json",
+					"name" : "arlo_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f4387e46de7bc64ab06d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces",
+		"source" : "/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

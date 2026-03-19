@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001121] (-) JobUnselected: {'identifier': 'arlo_interfaces'}
-[0.001257] (cognitive_architecture) JobQueued: {'identifier': 'cognitive_architecture', 'dependencies': OrderedDict([('arlo_interfaces', '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces')])}
-[0.001392] (cognitive_architecture) JobStarted: {'identifier': 'cognitive_architecture'}
-[0.099196] (-) TimerEvent: {}
-[0.194197] (cognitive_architecture) JobEnded: {'identifier': 'cognitive_architecture', 'rc': 1}
-[0.199354] (-) TimerEvent: {}
-[0.206374] (-) EventReactorShutdown: {}

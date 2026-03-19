@@ -1,2 +1,0 @@
-Invoking command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces': /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces
-Invoked command in '/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/arlo_interfaces' returned '1': /usr/bin/cmake /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/arlo_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/install/arlo_interfaces

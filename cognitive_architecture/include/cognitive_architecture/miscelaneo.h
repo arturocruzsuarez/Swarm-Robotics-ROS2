@@ -16,7 +16,7 @@ class Miscelaneo {
 
 public:
     Miscelaneo(int id);
-    ~Miscelaneo();
+    ~Miscelaneo() {};
 
     void SpawnEntity(string name, string NameSpace, string filem, double x, double y, double z);
     void SetEntityState(double x, double y, double z, string EntityName, string file_path);    

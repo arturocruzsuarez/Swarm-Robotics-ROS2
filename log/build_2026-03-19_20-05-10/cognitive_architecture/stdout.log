@@ -38,8 +38,8 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/antonio/Robotic-Swarms-main/Robotic-Swarms-main/build/cognitive_architecture
-[ 25%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/controlador_cpp.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/meta_exe.dir/src/controlador_meta.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/meta_exe.dir/src/controlador_meta.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/controlador_cpp.cpp.o[0m
 [ 50%] Built target ament_cmake_python_copy_cognitive_architecture
 running egg_info
 creating cognitive_architecture.egg-info
@@ -50,8 +50,8 @@ writing manifest file 'cognitive_architecture.egg-info/SOURCES.txt'
 reading manifest file 'cognitive_architecture.egg-info/SOURCES.txt'
 writing manifest file 'cognitive_architecture.egg-info/SOURCES.txt'
 [ 50%] Built target ament_cmake_python_build_cognitive_architecture_egg
-[ 75%] [32m[1mLinking CXX executable meta_exe[0m
-[100%] [32m[1mLinking CXX executable cpp_exe[0m
+[ 75%] [32m[1mLinking CXX executable cpp_exe[0m
+[100%] [32m[1mLinking CXX executable meta_exe[0m
 [100%] Built target meta_exe
 [100%] Built target cpp_exe
 -- Install configuration: ""
